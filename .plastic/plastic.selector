@@ -1,0 +1,4 @@
+repository "Viral@ng_th_linh@cloud"
+  path "/"
+    br "/main"
+    co "/main"
