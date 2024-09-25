@@ -1,6 +1,6 @@
-# **Replace this Project Name** - ReadMe File
+# **"VIRAL"** - ReadMe File
 
-#### Author: *Replace this with your name*
+#### Author: *Linh Nguyen, Sally Hathaway, Tristan Bakker, Eishi Amano, Mohammed Alanizy*
 
 ##### Modified: *2024-09-04*
 
@@ -82,7 +82,6 @@
 
 ---
 
-# Required ReadMe Info for ALL MI 231 Projects
 * **Project**   - 
 * **Your Name** - 
 * **Date**      - 
