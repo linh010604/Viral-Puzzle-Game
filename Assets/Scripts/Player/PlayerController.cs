@@ -12,12 +12,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private Vector3 movement;
 
-    private void Awake() 
+    private void Awake()
     {
         controller = new InputSystem_Actions();
     }
 
-    private void OnEnable() 
+    private void OnEnable()
     {
         controller.Enable();
     }
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log(x + "," + z);
 
-        movement = new Vector3 (x, 0, z).normalized;
+        movement = new Vector3(x, 0, z).normalized;
     }
 
     private void FixedUpdate()
