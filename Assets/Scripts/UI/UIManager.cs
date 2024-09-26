@@ -28,6 +28,10 @@ public class UIManager : MonoBehaviour
     public int pausePageIndex = 1;
     [Tooltip("Whether or not to allow pausing")]
     public bool allowPause = true;
+
+    [Header("Input Actions & Controls")]
+    public InputAction pauseAction;
+
     [Header("Polish Effects")]
     [Tooltip("The effect to create when navigating between UI")]
     public GameObject navigationEffect;
@@ -35,9 +39,6 @@ public class UIManager : MonoBehaviour
     public GameObject clickEffect;
     [Tooltip("The effect to create when the player is backing out of a Menu page")]
     public GameObject backEffect;
-
-    [Header("Input Actions & Controls")]
-    public InputAction pauseAction;
 
     // Whether the application is paused
     private bool isPaused = false;
@@ -163,7 +164,7 @@ public class UIManager : MonoBehaviour
             {
                 if (CursorManager.instance != null)
                 {
-                    CursorManager.instance.ChangeCursorMode(CursorManager.CursorState.FPS);
+                    CursorManager.instance.ChangeCursorMode(CursorManager.CursorState.InGame);
                 }
                 GoToPage(defaultPage);
                 Time.timeScale = 1;
@@ -257,10 +258,10 @@ public class UIManager : MonoBehaviour
 
     /// <summary>
     /// Description:
-    /// Reads the pause input
+    /// If the input manager is set up, reads the pause input
     /// Input:
     /// none
-    /// Returns:
+    /// Return:
     /// void (no return)
     /// </summary>
     private void CheckPauseInput()
@@ -270,7 +271,6 @@ public class UIManager : MonoBehaviour
             TogglePause();
         }
     }
-
     /// <summary>
     /// Description:
     /// Goes to a page by that page's index
