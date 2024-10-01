@@ -33,6 +33,14 @@ public class AlertMeter : MonoBehaviour
 
     void UpdateAlertStage()
     {
+        // Update the speed label to cooling down
+        if (!playerController.isMovingForward && sensitive != 0)
+        {
+            speedLabel.text = "Cooling";
+            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
+            speedLabel.color = Color.white;
+            return;
+        }
         if (sensitive < maxSensitive * 0.30f)
         {
             speedLabel.text = "Normal";

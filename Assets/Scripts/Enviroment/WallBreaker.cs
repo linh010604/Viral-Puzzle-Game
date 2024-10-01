@@ -9,7 +9,8 @@ public class WallBreaker : MonoBehaviour
 
     public float sensitivityIncreaseAmount = 10f; // Amount to increase sensitivity per hit
     public float cooldownTime = 2f; // Time before sensitivity starts decreasing after no hits
-    private bool isCooldownActive = false; // Cooldown flag
+    // We may use this to prevent sensitivity from increasing too fast or not breaking the wall too soon
+    private bool isCooldownActive = false; // Cooldown flag 
 
     private AlertMeter alertMeter; // Reference to the AlertMeter script
     private Coroutine cooldownCoroutine; // Store the cooldown coroutine
@@ -75,5 +76,14 @@ public class WallBreaker : MonoBehaviour
 
         isCooldownActive = false;
         Debug.Log("Cooldown ended.");
+    }
+    // Method to lower the hit threshold after puzzle activation
+    public void LowerHitThreshold(int newThreshold)
+    {
+        hitThreshold = newThreshold;
+        Debug.Log("Hit threshold lowered to: " + hitThreshold);
+        // Reset the hit count 
+        // We can change that later if we don't want to reset the hit count !
+        hitCount = 0;
     }
 }
