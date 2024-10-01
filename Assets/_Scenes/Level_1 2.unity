@@ -2509,7 +2509,6 @@ MonoBehaviour:
   pressText: {fileID: 284184268}
   lowerAmount: 3
   wallBreaker: {fileID: 1624898234}
-  text: {fileID: 1505796587}
 --- !u!65 &405494692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7048,10 +7047,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelManagement
       objectReference: {fileID: 0}
-    - target: {fileID: 6388794743938507002, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6461465813533557321, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7194,7 +7189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095153707900665778, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095153708273401584, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_Sprite
@@ -10544,7 +10539,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505796587}
   m_LocalRotation: {x: -0, y: -0.019186884, z: -0, w: 0.9998159}
-  m_LocalPosition: {x: 0, y: 0, z: 3.43}
+  m_LocalPosition: {x: 0, y: 0, z: 9.49}
   m_LocalScale: {x: 1.4153999, y: 1.4153999, z: 1.4153999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17600,7 +17595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7373324210833604991, guid: dc62e4e2bfd36457c9059982ba682393, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 345
+      value: 264
       objectReference: {fileID: 0}
     - target: {fileID: 8617077875049946050, guid: dc62e4e2bfd36457c9059982ba682393, type: 3}
       propertyPath: m_Pivot.x

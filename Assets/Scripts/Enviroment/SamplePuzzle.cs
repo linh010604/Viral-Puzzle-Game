@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class SamplePuzzle : MonoBehaviour
 {
@@ -8,6 +9,18 @@ public class SamplePuzzle : MonoBehaviour
     private bool playerInRange = false; 
     public int lowerAmount = 3; // Amount to lower the hit threshold
     public WallBreaker wallBreaker; // Reference to the WallBreaker script
+    public GameObject text; // Reference to the text appear
+
+
+    void Start()
+    {
+        // Make sure the UI element is hidden at the start
+        if (text != null)
+        {
+            text.SetActive(false);
+        }
+    }
+
     void Update()
     {
         // Check if the player is in range and e is pressed
@@ -43,7 +56,12 @@ public class SamplePuzzle : MonoBehaviour
     {
         if (door != null)
         {
-            door.SetActive(false);  // Deactivate the door to simulate opening it
+            //door.SetActive(false);  // Deactivate the door to simulate opening it
+            if (text != null)
+            {
+                text.SetActive(true);
+                StartCoroutine(HideAfterTime(10f));
+            }
             pressText.text = "Door opened!";
             Debug.Log("Door opened!");
         }
@@ -56,5 +74,16 @@ public class SamplePuzzle : MonoBehaviour
         {
             wallBreaker.LowerHitThreshold(lowerAmount);  
         }
+    }
+
+    IEnumerator HideAfterTime(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        // Hide the UI after the delay
+        if (text != null)
+        {
+            text.SetActive(false);
+        }
+        //isVisible = false;  // Reset the visibility state
     }
 }
