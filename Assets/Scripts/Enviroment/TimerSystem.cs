@@ -1,5 +1,9 @@
 using UnityEngine;
-using TMPro;  
+using TMPro;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using UnityEngine;
 
 public class TimerSystem : MonoBehaviour
 {
@@ -7,8 +11,6 @@ public class TimerSystem : MonoBehaviour
     public bool TimerOn = true;
 
     public TextMeshProUGUI TimerTxt;
-
-    public GameObject LoserPage;   // Reference to the Loser UI Panel
 
     private bool gameEnded = false;
 
@@ -44,16 +46,24 @@ public class TimerSystem : MonoBehaviour
         float seconds = Mathf.FloorToInt(currentTime % 60);
 
         TimerTxt.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        if (currentTime <= 10f)
+        {
+            TimerTxt.color = Color.red;  // Flash red when 10 seconds are left
+        }
+        else
+        {
+            TimerTxt.color = Color.white;  // Normal color
+        }
     }
 
     void EndGame()
     {
         gameEnded = true;
 
-        // Display the Loser UI
-        if (LoserPage != null)
+        if (GameManager.instance != null)
         {
-            LoserPage.SetActive(true);  // Activate the Loser UI when time runs out
+            GameManager.instance.GameOver();
         }
 
         // Optional: You can pause the game by setting Time.timeScale to 0
