@@ -3,14 +3,20 @@ using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using UnityEngine;
+using System;
 
 public class TimerSystem : MonoBehaviour
 {
-    public float TimeLeft = 180;
-    public bool TimerOn = true;
 
-    public TextMeshProUGUI TimerTxt;
+    public TextMeshProUGUI timerText;
+
+    [Header("Time Values")]
+    [Range(0, 60)]
+    public int seconds;
+    [Range(0, 60)]
+    public int minutes;
+    [Range(0, 60)]
+    public int hours;
 
     public Color fontColor;
 
@@ -18,30 +24,40 @@ public class TimerSystem : MonoBehaviour
 
     private float currentSeconds;
     private int timerDefault;
-    [Header("Loser UI Panel")]
-    public GameObject LoserPage;   // Reference to the Loser UI Panel
+
 
     private bool gameEnded = false;
 
     void Start()
     {
-        // timerText.color = fontColor;
         timerDefault = 0;
         timerDefault += (seconds + (minutes * 60) + (hours * 60 * 60));
         currentSeconds = timerDefault;
+
     }
 
     void Update()
     {
-        if((currentSeconds -= Time.deltaTime) <= 0)
+        if ((currentSeconds -= Time.deltaTime) <= 0)
         {
             TimeUp();
             EndGame();
         }
         else
         {
-            if(showMilliseconds)
+            if (showMilliseconds)
+            {
+                if (currentSeconds <= 10f)
+                {
+                    timerText.color = Color.red;  // Flash red when 10 seconds are left
+                }
+                else
+                {
+                    timerText.color = Color.white;  // Normal color
+                }
                 timerText.text = TimeSpan.FromSeconds(currentSeconds).ToString(@"hh\:mm\:ss\:fff");
+            }
+                
             else
                 timerText.text = TimeSpan.FromSeconds(currentSeconds).ToString(@"hh\:mm\:ss");
         }
@@ -55,17 +71,17 @@ public class TimerSystem : MonoBehaviour
             timerText.text = "00:00:00";
     }
 
-    void EndGame()
+    private void EndGame()
     {
         gameEnded = true;
 
-        // Display the Loser UI
-        if (LoserPage != null)
+        if (GameManager.instance != null)
         {
-            LoserPage.SetActive(true);  // Activate the Loser UI when time runs out
+            GameManager.instance.GameOver();
         }
 
         // Optional: You can pause the game by setting Time.timeScale to 0
         Time.timeScale = 0f;  // Freeze the game
     }
+
 }

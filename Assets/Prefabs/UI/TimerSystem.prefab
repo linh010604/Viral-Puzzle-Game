@@ -92,10 +92,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 20
   m_fontSizeMax: 24
   m_fontStyle: 0
@@ -229,4 +229,3 @@ MonoBehaviour:
   hours: 0
   fontColor: {r: 0.70980394, g: 0.06274474, b: 0.06274474, a: 1}
   showMilliseconds: 0
-  LoserPage: {fileID: 0}
