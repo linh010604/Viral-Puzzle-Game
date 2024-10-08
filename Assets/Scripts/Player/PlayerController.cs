@@ -25,6 +25,12 @@ public class PlayerController : MonoBehaviour
         controller.Enable();
     }
 
+    void OnDisable()
+    {
+        // Disable the player input actions when the object is inactive
+        controller.Disable();
+    }
+
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
@@ -56,5 +62,12 @@ public class PlayerController : MonoBehaviour
 
         // Update lastPosition to the current position
         lastPosition = transform.position;
+    }
+
+    // Clean up the input system
+    private void OnDestroy()
+    {
+        // Make sure to disable the input system when this object is destroyed
+        controller.Disable();
     }
 }
