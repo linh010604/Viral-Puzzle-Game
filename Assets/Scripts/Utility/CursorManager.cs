@@ -38,6 +38,11 @@ public class CursorManager : MonoBehaviour {
         }
     }
 
+    public void Puzzle()
+    {
+           ChangeCursorMode(CursorState.Menu);
+    }
+
     /// <summary>
     /// Description:
     /// Changes cursor mode to match the desired state

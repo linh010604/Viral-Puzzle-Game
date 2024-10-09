@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WallBreaker : MonoBehaviour
 {
-    public int hitThreshold = 3; // Number of hits needed to break the wall
+    public int hitThreshold = 10; // Number of hits needed to break the wall
     private int hitCount = 0; // Track the number of hits
 
     public float sensitivityIncreaseAmount = 10f; // Amount to increase sensitivity per hit

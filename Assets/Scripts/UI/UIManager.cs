@@ -40,6 +40,8 @@ public class UIManager : MonoBehaviour
     [Tooltip("The effect to create when the player is backing out of a Menu page")]
     public GameObject backEffect;
 
+    public PlayerController player;
+
     // Whether the application is paused
     private bool isPaused = false;
 
@@ -165,6 +167,7 @@ public class UIManager : MonoBehaviour
                 if (CursorManager.instance != null)
                 {
                     CursorManager.instance.ChangeCursorMode(CursorManager.CursorState.InGame);
+                    player.RecoverSpeed();
                 }
                 GoToPage(defaultPage);
                 Time.timeScale = 1;

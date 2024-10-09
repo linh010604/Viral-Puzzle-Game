@@ -49,11 +49,12 @@ public class TimerSystem : MonoBehaviour
             {
                 if (currentSeconds <= 10f)
                 {
-                    timerText.color = Color.red;  // Flash red when 10 seconds are left
-                }
-                else
-                {
-                    timerText.color = Color.white;  // Normal color
+                    if (fontColor == Color.white)
+                        fontColor = Color.red;  // Flash red when 10 seconds are left
+                    else
+                    {
+                        fontColor = Color.white;  // Normal color
+                    }
                 }
                 timerText.text = TimeSpan.FromSeconds(currentSeconds).ToString(@"hh\:mm\:ss\:fff");
             }

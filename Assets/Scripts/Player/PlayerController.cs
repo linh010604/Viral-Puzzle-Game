@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private int speed;
+    private int initialSpeed;
 
     private InputSystem_Actions controller;
     private Rigidbody rb;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         controller = new InputSystem_Actions();
+        initialSpeed = speed;
     }
 
     private void OnEnable()
@@ -34,7 +36,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
-        lastPosition = transform.position;  
+        lastPosition = transform.position;
+        initialSpeed = speed;
     }
 
     void Update()
@@ -69,5 +72,16 @@ public class PlayerController : MonoBehaviour
     {
         // Make sure to disable the input system when this object is destroyed
         controller.Disable();
+    }
+
+    public void SetSpeed()
+    {
+        Debug.Log("stupid");
+        speed = 0;
+    }
+
+    public void RecoverSpeed()
+    {
+        speed = initialSpeed;
     }
 }
