@@ -10,7 +10,7 @@ public class MatrixRectangleText : MonoBehaviour
     public GameObject textPrefab;       // Prefab for the TMP_Text (0, 1) inside the rectangle
     public RectTransform canvasRect;    // Reference to the Canvas RectTransform
 
-    public float totalTime = 65f;       // Total time for the rectangle to expand
+    public float totalTime = 150f;       // Total time for the rectangle to expand
     public float textFallSpeed = 17f;        // Speed of the text falling inside the rectangle
     public float spawnInterval = 0.3f;       // Interval between spawning new text inside the rectangle
     public Vector2 initialSize = new Vector2(350, 100);  // Initial size of the rectangle
