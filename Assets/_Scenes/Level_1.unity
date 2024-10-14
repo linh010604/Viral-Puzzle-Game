@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028423, g: 0.22571538, b: 0.3069227, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028405, g: 0.22571522, b: 0.3069222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -161,7 +161,9 @@ MonoBehaviour:
   pickUpEffect: {fileID: 0}
   memoryPuzzle: {fileID: 1166866621}
   player: {fileID: 1774382916}
+  lowerAmount: 3
   cursorManager: {fileID: 857038406}
+  wallBreaker: {fileID: 1624898234}
 --- !u!65 &8609465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7855,12 +7857,16 @@ PrefabInstance:
       objectReference: {fileID: 1774382916}
     - target: {fileID: 1434839205629874892, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: pages.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1434839205629874892, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: pages.Array.data[5]
       value: 
       objectReference: {fileID: 753872792}
+    - target: {fileID: 1434839205629874892, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
+      propertyPath: pages.Array.data[6]
+      value: 
+      objectReference: {fileID: 1166866631}
     - target: {fileID: 6388794743938507002, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_Name
       value: LevelManagement
@@ -8863,15 +8869,15 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 415546545445887107, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
   m_PrefabInstance: {fileID: 1763824066}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1166866628 stripped
+--- !u!114 &1166866631 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 90782321841797372, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8699347251428488255, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
   m_PrefabInstance: {fileID: 1763824066}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166866621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f793494e617440ecb5aab4d7fb7ce0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c4cfd8d70c27f24f9b7a018e23d879c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!43 &1228275198
@@ -47987,10 +47993,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 227303725}
     m_Modifications:
-    - target: {fileID: 90782321841797372, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1774382916}
     - target: {fileID: 415546545445887107, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -48075,6 +48077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MemoryGamePage
       objectReference: {fileID: 0}
+    - target: {fileID: 1871434406516399244, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1774382916}
     - target: {fileID: 7617268033446745925, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -48091,18 +48097,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 227303726}
-    - target: {fileID: 8648437466086159753, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1166866628}
-    - target: {fileID: 8648437466086159753, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DisableCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8648437466086159753, guid: dbcbab27bef4a437b8b519eb961ca2df, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: MemoryManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

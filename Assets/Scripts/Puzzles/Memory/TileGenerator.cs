@@ -7,10 +7,13 @@ using UnityEngine.EventSystems; // For Raycast
 public class TileGenerator : MonoBehaviour
 {
     [SerializeField] private int numTiles = 4; // Number of tiles per row/column (total will be numTiles * numTiles)
-    [SerializeField] private float spacingBetweenTiles = 10f; 
+    [SerializeField] private float spacingBetweenTiles = 10f;
     [SerializeField] private Tile tilePrefab;
     [SerializeField] private float dealyBeforeReset = 0.2f;
     [SerializeField] private GameObject parentPrefab;
+    public GameObject completeText;
+    public PlayerController player;
+    [SerializeField] private GameObject tileCanvas;  // Separate canvas for tiles
     private int correctPairs = 0;
 
     private bool isBusy = false;
@@ -21,9 +24,18 @@ public class TileGenerator : MonoBehaviour
 
     private void Start()
     {
-        tileCanvasRectTransform = GetComponent<RectTransform>();
-        graphicRaycaster = GetComponentInParent<GraphicRaycaster>(); 
-        eventSystem = GetComponentInParent<EventSystem>(); 
+        if (tileCanvas != null)
+        {
+            tileCanvasRectTransform = tileCanvas.GetComponent<RectTransform>();
+        }
+        else
+        {
+            Debug.LogError("Canvas for tiles is not assigned!");
+            return;
+        }
+
+        graphicRaycaster = tileCanvas.GetComponent<GraphicRaycaster>();
+        eventSystem = tileCanvas.GetComponentInParent<EventSystem>();
         GenerateTiles();
     }
 
@@ -39,12 +51,11 @@ public class TileGenerator : MonoBehaviour
 
         if (totalTiles % 2 != 0)
         {
-            Debug.LogError("Hmmm... total tiles must be even to form pairs !!");
+            Debug.LogError("Hmmm... total tiles must be even to form pairs!!");
             return;
         }
 
         Color[] tileColors = GeneratePairedColors(totalTiles / 2);
-
         ShuffleList(tileColors);
 
         Vector2 canvasSize = tileCanvasRectTransform.rect.size;
@@ -59,7 +70,6 @@ public class TileGenerator : MonoBehaviour
         float startY = (canvasSize.y / 2) - (tileHeight / 2);
 
         float y = startY;
-
         int tileIndex = 0;
 
         for (int i = 0; i < numTiles; i++)
@@ -67,9 +77,7 @@ public class TileGenerator : MonoBehaviour
             float x = startX;
             for (int j = 0; j < numTiles; j++)
             {
-                Tile tile = Instantiate<Tile>(tilePrefab, parentPrefab.transform);
-
-                // Assign a color from the shuffled color list
+                Tile tile = Instantiate<Tile>(tilePrefab, tileCanvas.transform);  // Instantiate on the separate canvas
                 tile.Init(tileColors[tileIndex]);
 
                 RectTransform tileRectTransform = tile.GetComponent<RectTransform>();
@@ -154,6 +162,7 @@ public class TileGenerator : MonoBehaviour
                             correctPairs++;
                             if (correctPairs >= (numTiles * numTiles / 2)){
                                 Debug.Log("All Paired!");
+                                StartCoroutine(ShowCompleteTextAndDisableSystem());
                             }
                             StartCoroutine(DestroyTiles(clickedTile));
                         }
@@ -188,4 +197,48 @@ public class TileGenerator : MonoBehaviour
         selectedTiles.Dequeue().Reset();
         this.isBusy = false;
     }
+    public void RestartGame()
+    {
+        selectedTiles.Clear();
+
+        correctPairs = 0;
+
+        foreach (Transform child in tileCanvas.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        GenerateTiles();
+
+        isBusy = false;
+
+    
+        Debug.Log("Game Restarted!");
+    }
+    public void ExitGame()
+    {
+        player.RecoverSpeed();
+        RestartGame();
+    }
+    public bool IsCompleted()
+    {
+        if (correctPairs >= (numTiles * numTiles / 2))
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    IEnumerator ShowCompleteTextAndDisableSystem()
+    {
+        completeText.gameObject.SetActive(true); // Show the popup
+
+        yield return new WaitForSeconds(2);  // Wait for 2 seconds
+
+        completeText.gameObject.SetActive(false); // Hide the popup
+
+
+        ExitGame();
+        this.gameObject.SetActive(false);
+    }
+
 }
