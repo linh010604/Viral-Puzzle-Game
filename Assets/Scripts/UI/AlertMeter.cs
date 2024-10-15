@@ -1,19 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AlertMeter : MonoBehaviour
 {
-    public float maxSensitive = 100.0f; // Max sensitivity value
-    public float sensitive = 0.0f; // Current sensitivity
-    public float minNeedlePointerAngle = 12.64f; // Min angle of the needle
-    public float maxNeedlePointerAngle = -153.3f;  // Max angle of the needle
-    public RectTransform pointerHolder; 
-    public TMPro.TMP_Text speedLabel;
-    public PlayerController playerController; // Reference to the PlayerController
+    public float maxSensitive = 100.0f;  // Max sensitivity value
+    public float sensitive = 0.0f;       // Current sensitivity
+    public float increaseRate = 5.0f;   // Sensitivity increase rate
+    public float decreaseRate = 35.0f;   // Sensitivity decrease rate
 
-    public float increaseRate = 10.0f;
-    public float decreaseRate = 25.0f; 
+    public int numSections = 11;          // Number of sections in the alert meter
+    public Color[] sectionColors;        // Colors for each section of the alert meter
+    public Vector2 sectionSize = new Vector2(65, 20); // Size of each rectangle (width, height)
+    public float sectionSpacing = 10f;    // Space between each rectangle
+
+    public Sprite borderSprite;           // The 9-slice sprite for the border
+    public PlayerController playerController; // Reference to the PlayerController for movement
+    private RectTransform[] alertSections;    // Temp array to store the alert sections
+
+    private Vector2 initialSize;
+
+    void Start()
+    {
+        alertSections = new RectTransform[numSections];
+
+        for (int i = 0; i < numSections; i++)
+        {
+            GameObject section = new GameObject("AlertBlock" + i);
+            section.transform.SetParent(this.transform);  // Set the parent to the current GameObject
+
+            RectTransform rect = section.AddComponent<RectTransform>();
+            rect.sizeDelta = sectionSize; 
+            rect.anchorMin = new Vector2(0.5f, 0f);   
+            rect.anchorMax = new Vector2(0.5f, 0f);   
+            rect.pivot = new Vector2(0.5f, -0.5f);        
+            float yPos = (sectionSize.y - sectionSpacing) * (i);  // Calculate the y position based on index
+            rect.anchoredPosition = new Vector2(0, yPos);  
+
+            // Add Image component and set the 9-slice sprite
+            Image img = section.AddComponent<Image>();
+            img.sprite = borderSprite;       // Assign the 9-slice sprite with transparent center
+            img.type = Image.Type.Sliced;    // Set image type to Sliced for 9-slice behavior
+            img.color = sectionColors[i];    // Set color for the border
+
+            alertSections[i] = rect;
+        }
+
+        initialSize = sectionSize;
+    }
 
     void Update()
     {
@@ -26,44 +61,27 @@ public class AlertMeter : MonoBehaviour
             sensitive = Mathf.Clamp(sensitive - decreaseRate * Time.deltaTime, 0, maxSensitive);
         }
 
-        pointerHolder.localEulerAngles = new Vector3(0, 0, Mathf.Lerp(minNeedlePointerAngle, maxNeedlePointerAngle, sensitive / maxSensitive));
-
-        UpdateAlertStage();
+        UpdateAlertMeter();
     }
 
-    void UpdateAlertStage()
+    void UpdateAlertMeter()
     {
-        // Update the speed label to cooling down
-        if (!playerController.isMovingForward && sensitive != 0)
+        float sensitivityPercentage = sensitive / maxSensitive;
+
+        int sectionsToShow = Mathf.CeilToInt(sensitivityPercentage * numSections);
+
+        for (int i = 0; i < numSections; i++)
         {
-            speedLabel.text = "Cooling";
-            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
-            speedLabel.color = Color.white;
-            return;
-        }
-        if (sensitive < maxSensitive * 0.30f)
-        {
-            speedLabel.text = "Normal";
-            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
-            speedLabel.color = Color.green;
-        }
-        else if (sensitive < maxSensitive * 0.55f)
-        {
-            speedLabel.text = "Hmmm";
-            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
-            speedLabel.color = Color.yellow;
-        }
-        else if (sensitive < maxSensitive * 0.90f)
-        {
-            speedLabel.text = "Relax";
-            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
-            speedLabel.color = new Color(1.0f, 0.5f, 0.0f);
-        }
-        else
-        {
-            speedLabel.text = "RUN !!";
-            speedLabel.alignment = TMPro.TextAlignmentOptions.Center;
-            speedLabel.color = Color.red;
+            if (i < sectionsToShow)
+            {
+                // Enable the rectangle (set to its original size)
+                alertSections[i].sizeDelta = new Vector2(initialSize.x, initialSize.y);
+            }
+            else
+            {
+                // Hide the section (set size to zero)
+                alertSections[i].sizeDelta = Vector2.zero;
+            }
         }
     }
 }
