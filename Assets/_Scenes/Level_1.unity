@@ -441,6 +441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (2)
@@ -573,6 +577,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (2)
@@ -924,6 +932,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (4)
@@ -1089,6 +1101,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (5)
@@ -2810,6 +2826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (1)
@@ -3171,6 +3191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (4)
@@ -3452,6 +3476,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (14)
@@ -3683,6 +3711,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (10)
@@ -4035,6 +4067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2
@@ -4266,6 +4302,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (6)
@@ -4336,6 +4376,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (8)
@@ -4942,6 +4986,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner
@@ -5008,6 +5056,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (12)
@@ -5778,6 +5830,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (7)
@@ -6010,6 +6066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (1)
@@ -6468,6 +6528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (4)
@@ -7313,6 +7377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (7)
@@ -8996,6 +9064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (4)
@@ -9303,6 +9375,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (1)
@@ -9369,6 +9445,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (9)
@@ -9970,6 +10050,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cfa1e3a8e7b17474b9392633341ec73d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: cfa1e3a8e7b17474b9392633341ec73d, type: 3}
       propertyPath: m_Name
       value: ModularGate
@@ -10201,6 +10285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (6)
@@ -10329,6 +10417,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall
@@ -10808,6 +10900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (5)
@@ -10998,6 +11094,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (3)
@@ -11229,6 +11329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (7)
@@ -46075,6 +46179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (9)
@@ -46141,6 +46249,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (10)
@@ -46207,6 +46319,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (11)
@@ -46397,6 +46513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (2)
@@ -47603,6 +47723,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (11)
@@ -47736,6 +47860,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (5)
@@ -48448,6 +48576,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (3)
@@ -49287,6 +49419,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (5)
@@ -49353,6 +49489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (8)
@@ -52221,7 +52361,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 25a9fb42d361f46ad89221f6d301e96e, type: 2}
+  - {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53341,6 +53481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c2fd763ef6079f42809bb3a7ab13833, type: 3}
       propertyPath: m_Name
       value: ViralModularLargeCorner (3)
@@ -53469,6 +53613,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
       propertyPath: m_Name
       value: ViralSmallCorner2 (2)
@@ -53721,6 +53869,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (8)
@@ -53883,6 +54035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (12)
@@ -54362,6 +54518,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
       propertyPath: m_Name
       value: ViralModularWall (3)
@@ -55156,6 +55316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (6)
@@ -55390,6 +55554,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b45459270e5aa4199790ce2be88bd5, type: 2}
     - target: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
       propertyPath: m_Name
       value: ViralModularHalfWall (13)
