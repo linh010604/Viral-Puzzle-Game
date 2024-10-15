@@ -78,20 +78,12 @@ public class WallBreaker : MonoBehaviour
         Debug.Log("Cooldown ended.");
     }
     // Method to lower the hit threshold after puzzle activation
-    public bool LowerHitThreshold(int newThreshold)
+    public void LowerHitThreshold(int newThreshold)
     {
-        if (hitThreshold <= hitCount + newThreshold)
-        {
-            BreakWall();
-            return true;
-        }
-        else {
-            hitThreshold = newThreshold;
-            Debug.Log("Hit threshold lowered to: " + hitThreshold);
-            // Reset the hit count 
-            // We can change that later if we don't want to reset the hit count !
-            hitCount = 0;
-            return false;
-        }
+        hitThreshold = newThreshold;
+        Debug.Log("Hit threshold lowered to: " + hitThreshold);
+        // Reset the hit count 
+        // We can change that later if we don't want to reset the hit count !
+        hitCount = 0;
     }
 }
