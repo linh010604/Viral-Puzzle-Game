@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028405, g: 0.22571522, b: 0.3069222, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028423, g: 0.22571538, b: 0.3069227, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 8609465}
   - component: {fileID: 8609464}
   m_Layer: 0
-  m_Name: Puzzle (1)
+  m_Name: MemoryGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,7 +1044,7 @@ GameObject:
   - component: {fileID: 159106636}
   - component: {fileID: 159106643}
   m_Layer: 0
-  m_Name: Puzzle
+  m_Name: ColorMatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   matchSystem: {fileID: 753872791}
   cursorManager: {fileID: 857038406}
   player: {fileID: 1774382916}
-  dialogText: {fileID: 284184268}
+  dialogText: {fileID: 405494696}
   lowerAmount: 3
   wallBreaker: {fileID: 1624898234}
 --- !u!64 &159106637
@@ -3381,8 +3381,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.6
-  m_fontSizeBase: 6.6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.1911786, w: 0.42829084}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -3476,7 +3476,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284184267}
   m_LocalRotation: {x: -0, y: -0.5874324, z: -0, w: 0.80927324}
-  m_LocalPosition: {x: 0, y: 0, z: 0.835}
+  m_LocalPosition: {x: 0, y: 0, z: 0.02381}
   m_LocalScale: {x: 0.14285648, y: 0.14285646, z: 0.14285648}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3484,8 +3484,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -71.95, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.371428, y: -0.089}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 0.37143, y: 0.16257}
+  m_SizeDelta: {x: 8.05545, y: 1.47782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &314929626
 GameObject:
@@ -3815,8 +3815,9 @@ GameObject:
   - component: {fileID: 405494694}
   - component: {fileID: 405494693}
   - component: {fileID: 405494692}
+  - component: {fileID: 405494696}
   m_Layer: 0
-  m_Name: TempButtonSystem
+  m_Name: HintText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3842,7 +3843,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.5, y: 0, z: 0}
 --- !u!23 &405494693
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3901,14 +3902,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405494690}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.53, y: 1.49, z: 1.22}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5, y: -0.02, z: 3.7}
   m_LocalScale: {x: 9.907848, y: 9.907848, z: 9.907848}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 284184270}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &405494696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405494690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ceddc8ab9c209429721a47ad0cfca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogText: {fileID: 284184268}
+  enterText: Match all electric switches
+  exitText: Something awesome!
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5367,7 +5383,7 @@ GameObject:
   - component: {fileID: 511590739}
   - component: {fileID: 511590742}
   m_Layer: 0
-  m_Name: TempTextServeAsPuzzle
+  m_Name: DialogIntro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -12,7 +12,7 @@ public class PuzzlePickup : Pickup
 
     public PlayerController player; // plyer
 
-    public TMPro.TMP_Text dialogText; // Reference to hint dialog text
+    public HintText dialogText; // Reference to hint dialog text
 
     public int lowerAmount = 3; // Amount to lower the hit threshold
 
@@ -49,7 +49,6 @@ public class PuzzlePickup : Pickup
             cursorManager.Puzzle();
             matchSystem.Start();
             matchWirePopUp.SetActive(true);
-            dialogText.text = "Match the switches!";
             //Debug.Log("Player near button. Press 'E' to interact.");
             playerInRange = true; // Player is in range
         }
@@ -59,7 +58,6 @@ public class PuzzlePickup : Pickup
     {
         if (other.CompareTag("Player") && !matchSystem.AllPaired())
         {
-            dialogText.text = "Something awesome!";
             playerInRange = false; // Player left the trigger area
         }
     }
@@ -74,9 +72,9 @@ public class PuzzlePickup : Pickup
         if (wallBreaker != null)
         {
             if (wallBreaker.LowerHitThreshold(lowerAmount))
-                dialogText.text = "Door opened. Let spread !";
+                dialogText.enterText = "Door opened. Let spread !";
             else
-                dialogText.text = "Door almost opened. Hit it!";
+                dialogText.enterText = "Door almost opened. Hit it!";
         }
     }
 }
