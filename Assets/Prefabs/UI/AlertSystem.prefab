@@ -192,10 +192,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSensitive: 100
   sensitive: 0
-  minNeedlePointerAngle: 12.64
-  maxNeedlePointerAngle: -165.3
-  pointerHolder: {fileID: 0}
-  speedLabel: {fileID: 0}
-  playerController: {fileID: 0}
   increaseRate: 5
   decreaseRate: 35
+  numSections: 11
+  sectionColors:
+  - {r: 0.035294116, g: 0.79607844, b: 1, a: 1}
+  - {r: 0.03529412, g: 0.79607844, b: 1, a: 1}
+  - {r: 0.15686275, g: 0.7647059, b: 0.62352943, a: 1}
+  - {r: 0.56078434, g: 0.09019608, b: 0.91372555, a: 1}
+  - {r: 0.56078434, g: 0.09019608, b: 0.91372555, a: 1}
+  - {r: 0.56078434, g: 0.09019608, b: 0.91372555, a: 1}
+  - {r: 0.56078434, g: 0.09019608, b: 0.9137255, a: 1}
+  - {r: 0.9294118, g: 0.16078432, b: 0.47450984, a: 1}
+  - {r: 0.9294118, g: 0.16078432, b: 0.47450984, a: 1}
+  - {r: 0.92941177, g: 0.16078432, b: 0.4745098, a: 1}
+  - {r: 0.560757, g: 0.46902812, b: 0.6415094, a: 1}
+  sectionSize: {x: 65, y: 20}
+  sectionSpacing: 10
+  borderSprite: {fileID: 21300000, guid: ebfc7049543994ef1b3535cf4d74a4ec, type: 3}
+  playerController: {fileID: 0}
