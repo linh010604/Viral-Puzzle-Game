@@ -6,7 +6,6 @@ TagManager:
   tags:
   - AlertMeter
   - Port
-  - Panel
   layers:
   - Default
   - TransparentFX

@@ -31,8 +31,9 @@ public class PuzzlePickup : Pickup
     /// <param name="collision">The collider that caused this to be picked up</param>
     void Update()
     {
+
         // Check if the player is in range and e is pressed
-        if (matchSystem.AllPaired() && playerInRange && !activated)
+        if (matchSystem.AllPaired() && !activated)
         {
             //Debug.Log("Button pressed!");
             activated = true;
@@ -72,9 +73,11 @@ public class PuzzlePickup : Pickup
         if (wallBreaker != null)
         {
             if (wallBreaker.LowerHitThreshold(lowerAmount))
-                dialogText.enterText = "Door opened. Let spread !";
+                if (dialogText)
+                    dialogText.enterText = "Door opened. Let spread !";
             else
-                dialogText.enterText = "Door almost opened. Hit it!";
+                if (dialogText)
+                    dialogText.enterText = "Door almost opened. Hit it!";
         }
     }
 }

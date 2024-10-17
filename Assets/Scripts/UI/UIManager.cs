@@ -167,11 +167,7 @@ public class UIManager : MonoBehaviour
                 if (CursorManager.instance != null)
                 {
                     CursorManager.instance.ChangeCursorMode(CursorManager.CursorState.InGame);
-                    if (player != null)
-                    {
-                        player.RecoverSpeed();
-                    }
-                        
+                    player.RecoverSpeed();
                 }
                 GoToPage(defaultPage);
                 Time.timeScale = 1;
