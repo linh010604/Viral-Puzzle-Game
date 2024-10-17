@@ -1,0 +1,1887 @@
+fileFormatVersion: 2
+guid: a459c6066de0c2e4ebc6f9ee5d6329ec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Secondary HUD_0
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1487
+        width: 12
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c035191f1c026f4b82ef33b04ea4acc
+      internalID: -576148011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_1
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1513
+        width: 10
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c527a9608ebae4cb9e38dae07e5306
+      internalID: 1402328485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_2
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1539
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e55dad7e18c8f443a43c84a2a88c23d
+      internalID: 1933667448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_3
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 1536
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f0f0ed8d0393d4b8f164994e950c81
+      internalID: -1024542609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_4
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 1556
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7759d5e09390041a274fc9d054e9b6
+      internalID: 126794549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_5
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 1536
+        width: 5
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f43fcc9c75ab4f80c1a5a8d25967d
+      internalID: -541701776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_6
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1507
+        width: 15
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290b40169f364134487d7480d812b5b5
+      internalID: -1770234662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_7
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1507
+        width: 16
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b1b7b6c806bf4438847b0ee1e4f1b8
+      internalID: -637600950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_8
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1564
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25219f5ed0afc0347abff61043eaa5da
+      internalID: 397136664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_9
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 1540
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543d8d9aaa303524388b536a21b3876d
+      internalID: 2122709934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_10
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1519
+        width: 13
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee6dcf4d8a763d418c09ee2889105ea
+      internalID: -2044281722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_11
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 1572
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c46be74c51641647b99a5204256a294
+      internalID: -920438399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_12
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 1526
+        width: 7
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5711f651560e245a4966fa9fe4d341
+      internalID: 564339863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_13
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 1536
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76592522e4cd7234b9c1e94bb9f3c919
+      internalID: 2056858873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_14
+      rect:
+        serializedVersion: 2
+        x: 3913
+        y: 1544
+        width: 6
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61091c31a57e8d847a8f2b3e55908077
+      internalID: 15198306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_15
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1480
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06d920f20c4c064ba023e2228c1b30c
+      internalID: 388687149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_16
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1491
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de61151b6fecabb499ce3ca333042c05
+      internalID: -625868975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_17
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1503
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f481b4d040cf545b9fe65432b75324
+      internalID: 1238261561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_18
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 1489
+        width: 8
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15a223cf61f3e34ab56e04c47702b10
+      internalID: -1413404109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_19
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1517
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe07841f8f8c30459fce27ab2900d2d
+      internalID: 1248064013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_20
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1506
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997f2a9735efc54094efbfab9d01dee
+      internalID: -571260235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_21
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1423
+        width: 13
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45394ce98666e9e47b06e2ec684125f5
+      internalID: -17549815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_22
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 1522
+        width: 6
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26465bfd7c369d040b5155deff334c73
+      internalID: 1711932778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_23
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 1487
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aff61151110e284fa866a31c3376908
+      internalID: 450678447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_24
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1442
+        width: 14
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b58141fd5675f4d84f2fd3c8c9bf87
+      internalID: -1989313147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_25
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1513
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7ad4e3ef2a91044b49cb290ee918af
+      internalID: 1224022478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_26
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1474
+        width: 6
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968088309e0579b4a98417e94978491f
+      internalID: -151821302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_27
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 1474
+        width: 13
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9fcf599a9895f4cac8899bf89cb8d8
+      internalID: 1006188657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_28
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1485
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd09ddb6602e47e4c82e86c2c01ab87b
+      internalID: -1613384523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_29
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1499
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc3b3db7c7599d4ba175fbebe22d246
+      internalID: 1979858227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_30
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 1511
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c3adc7a8fad304cbabb7291f8e85af
+      internalID: -198103615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_31
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 1525
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b3ddc02c99b644282a5a8726a94c82
+      internalID: 96127526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_32
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1433
+        width: 7
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226088fdcd8df6248b9462a338b3a0d7
+      internalID: -454380003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1444
+        width: 7
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17994b45296acdd45bdb09024e349ccf
+      internalID: 2101066810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_34
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1456
+        width: 7
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e7deeb2f5f47242af758fb6e0ce415
+      internalID: -1672525371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_35
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1431
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9625cf88218db40a55bf3baea6d8d6
+      internalID: 1083467774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_36
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1468
+        width: 6
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a746dffd69fce74886251338c264d6f
+      internalID: -1106651434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_37
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1438
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74228421a7d4e4db6751e299b8095c
+      internalID: -1967761829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_38
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1441
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd77d8d1b2673943be6b6d4f7941ead
+      internalID: 1244466643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_39
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1448
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56acd9c0bf7087943aa79c611fe44f93
+      internalID: -1732058356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_40
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1458
+        width: 5
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0136b07cd88d16348beec92e6283e446
+      internalID: -372182741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_41
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1456
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411dd5d3447dceb46ad2c12029767794
+      internalID: -1490374596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_42
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1474
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84be8e2e9396a0647a34902c2cf0ee23
+      internalID: -950433040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_43
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1423
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f582d4c7764b554591ea8d536b13bdd
+      internalID: -104404737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_44
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1466
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0df0e56762dba4cbfce4d3ab6e6cf4
+      internalID: 1410496649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_45
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1436
+        width: 6
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671ba33c957c5284b82af32f77a8a0e1
+      internalID: -905040953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_46
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 1423
+        width: 11
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef828e09de57314cb55b33863d70ec0
+      internalID: -647905155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_47
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 1474
+        width: 8
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210cef0c14eb2534b9cb30ac7e22b276
+      internalID: -1285613629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_48
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 1462
+        width: 6
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf9fe04bf5a8b643ae7715519852c53
+      internalID: -1002273895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_49
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1423
+        width: 6
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42c1980b6a6f14bb22e0646006da41
+      internalID: 2034608226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_50
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1435
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab9437b52a5e814fb3a3606ab510910
+      internalID: 792897522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_51
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1442
+        width: 8
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373a7d642f01c14ea7961f552a218f8
+      internalID: -1786905343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_52
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 1448
+        width: 9
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c901f4b9177d7584f9fb408347a2690f
+      internalID: -1860497190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_53
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 1460
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb172b9cdc63cc4ea3c465ff2264afb
+      internalID: 1838922281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_54
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 1474
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589c8acb58e992d49a98efb86fb03676
+      internalID: 800077519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1423
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13cf9a1ee96e434ca578640d9ccf687
+      internalID: -1535732116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_56
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1423
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36da2233e610ff947a41dcb023563633
+      internalID: 1573449336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_57
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1423
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a190e89287904abb8d69edac57955
+      internalID: 1428165318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_58
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1423
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3c0d7051b615944b5fe1a8977a24fa
+      internalID: -1862733646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_59
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1423
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec64542b6aa9b41854e7113874c0fc
+      internalID: 1748674502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_60
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1423
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b26a50f424ef1499197cc3f0eaba95
+      internalID: -2026320141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_61
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1423
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6244ada6fff1343a88ed79f992d504
+      internalID: -1214083830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_62
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1423
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1820fbe3c411aa4faec39e80f461d1b
+      internalID: -1286793178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_63
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1423
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5702b9ffb8833db439194029265c3b39
+      internalID: -895555249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_64
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1423
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ddc6ec18389934381178aa84b1244b
+      internalID: -1472830014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_65
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1423
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dec2491cdfba0a4d8416f40839664ab
+      internalID: -1179554499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_66
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1425
+        width: 6
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e591cf826eb894448a0b54561f84778
+      internalID: 337674000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_67
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1423
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7cf82fb0f8d6d41b9791c1f15130dc
+      internalID: -631080292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_68
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1423
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8107aac829ba19646a408ab61c448353
+      internalID: -421224459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_69
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1423
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa669d5cbfc5e34089030d2855d4bad
+      internalID: 206525665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_70
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1423
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67c4e05dfcb3334f92e52957dee841e
+      internalID: 661868733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_71
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1423
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca8044d31b91ba48a286b82f45cfdd0
+      internalID: 692180697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_72
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1423
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933f78ba427e24479ada0b2c3400742
+      internalID: 2007222926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_73
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 1423
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5caa153e9b691409d79e7ffac82bf4
+      internalID: -648489726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_74
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 1423
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a9cea057f099e40ba992b1a8f5405d
+      internalID: 489881090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_75
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 1423
+        width: 6
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505caf7b0a0fd8499ede7c22654afe3
+      internalID: 905206804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_76
+      rect:
+        serializedVersion: 2
+        x: 3722
+        y: 1423
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fcdd3611af43e428ef6d04e777ccef
+      internalID: -148292806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_77
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 1423
+        width: 5
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0b7ec5e4c22546a4f175fde21f54d
+      internalID: -588786101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_78
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 1423
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968f5cd8c5c965145bcecb5fde083860
+      internalID: 2135129901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Secondary HUD_79
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 1423
+        width: 5
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ee0800b9ad364448ab3c620de27d0c
+      internalID: -1569009964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: efe46e72d96075f45bc2178e1b1806a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Secondary HUD_0: -576148011
+      Secondary HUD_1: 1402328485
+      Secondary HUD_10: -2044281722
+      Secondary HUD_11: -920438399
+      Secondary HUD_12: 564339863
+      Secondary HUD_13: 2056858873
+      Secondary HUD_14: 15198306
+      Secondary HUD_15: 388687149
+      Secondary HUD_16: -625868975
+      Secondary HUD_17: 1238261561
+      Secondary HUD_18: -1413404109
+      Secondary HUD_19: 1248064013
+      Secondary HUD_2: 1933667448
+      Secondary HUD_20: -571260235
+      Secondary HUD_21: -17549815
+      Secondary HUD_22: 1711932778
+      Secondary HUD_23: 450678447
+      Secondary HUD_24: -1989313147
+      Secondary HUD_25: 1224022478
+      Secondary HUD_26: -151821302
+      Secondary HUD_27: 1006188657
+      Secondary HUD_28: -1613384523
+      Secondary HUD_29: 1979858227
+      Secondary HUD_3: -1024542609
+      Secondary HUD_30: -198103615
+      Secondary HUD_31: 96127526
+      Secondary HUD_32: -454380003
+      Secondary HUD_33: 2101066810
+      Secondary HUD_34: -1672525371
+      Secondary HUD_35: 1083467774
+      Secondary HUD_36: -1106651434
+      Secondary HUD_37: -1967761829
+      Secondary HUD_38: 1244466643
+      Secondary HUD_39: -1732058356
+      Secondary HUD_4: 126794549
+      Secondary HUD_40: -372182741
+      Secondary HUD_41: -1490374596
+      Secondary HUD_42: -950433040
+      Secondary HUD_43: -104404737
+      Secondary HUD_44: 1410496649
+      Secondary HUD_45: -905040953
+      Secondary HUD_46: -647905155
+      Secondary HUD_47: -1285613629
+      Secondary HUD_48: -1002273895
+      Secondary HUD_49: 2034608226
+      Secondary HUD_5: -541701776
+      Secondary HUD_50: 792897522
+      Secondary HUD_51: -1786905343
+      Secondary HUD_52: -1860497190
+      Secondary HUD_53: 1838922281
+      Secondary HUD_54: 800077519
+      Secondary HUD_55: -1535732116
+      Secondary HUD_56: 1573449336
+      Secondary HUD_57: 1428165318
+      Secondary HUD_58: -1862733646
+      Secondary HUD_59: 1748674502
+      Secondary HUD_6: -1770234662
+      Secondary HUD_60: -2026320141
+      Secondary HUD_61: -1214083830
+      Secondary HUD_62: -1286793178
+      Secondary HUD_63: -895555249
+      Secondary HUD_64: -1472830014
+      Secondary HUD_65: -1179554499
+      Secondary HUD_66: 337674000
+      Secondary HUD_67: -631080292
+      Secondary HUD_68: -421224459
+      Secondary HUD_69: 206525665
+      Secondary HUD_7: -637600950
+      Secondary HUD_70: 661868733
+      Secondary HUD_71: 692180697
+      Secondary HUD_72: 2007222926
+      Secondary HUD_73: -648489726
+      Secondary HUD_74: 489881090
+      Secondary HUD_75: 905206804
+      Secondary HUD_76: -148292806
+      Secondary HUD_77: -588786101
+      Secondary HUD_78: 2135129901
+      Secondary HUD_79: -1569009964
+      Secondary HUD_8: 397136664
+      Secondary HUD_9: 2122709934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
