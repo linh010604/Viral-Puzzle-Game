@@ -161,7 +161,7 @@ MonoBehaviour:
   pickUpEffect: {fileID: 0}
   memoryPuzzle: {fileID: 1166866621}
   player: {fileID: 1774382916}
-  lowerAmount: 3
+  lowerAmount: 5
   cursorManager: {fileID: 857038406}
   wallBreaker: {fileID: 1624898234}
 --- !u!65 &8609465
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   cursorManager: {fileID: 857038406}
   player: {fileID: 1774382916}
   dialogText: {fileID: 405494696}
-  lowerAmount: 3
+  lowerAmount: 5
   wallBreaker: {fileID: 1136412374}
 --- !u!64 &159106637
 MeshCollider:
