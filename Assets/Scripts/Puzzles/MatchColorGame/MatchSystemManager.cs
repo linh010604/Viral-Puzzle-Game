@@ -115,7 +115,6 @@ public class MatchSystemManager : MonoBehaviour
         player.RecoverSpeed();
         ResetAllMovablePairs(); // Call this when the match system UI is closed
         currentMatchCount = 0;
-        matchEntities = null;
 
     }
 

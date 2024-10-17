@@ -66,18 +66,25 @@ public class PuzzlePickup : Pickup
     void ActivatePuzzle()
     {
 
-        
-        Debug.Log("Door opened!");
-
         // Lower the hit threshold of the wall
         if (wallBreaker != null)
         {
             if (wallBreaker.LowerHitThreshold(lowerAmount))
-                if (dialogText)
+            {
+                if (dialogText != null)
+                {
                     dialogText.enterText = "Door opened. Let spread !";
+                }
+            }       
             else
-                if (dialogText)
+            {
+                 Debug.Log("Door opened!");
+                 if (dialogText != null)
+                 {
                     dialogText.enterText = "Door almost opened. Hit it!";
+                 }
+            }
+                
         }
     }
 }
