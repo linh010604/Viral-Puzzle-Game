@@ -25,6 +25,9 @@ public class AlertMeter : MonoBehaviour
     public Animator alertAnimator;
     string animatorBoolName = "status";
 
+    // Reference to CinemachineCameraShake script
+    public CinemachineCameraShake cameraShake;
+
     void Start()
     {
         alertSections = new RectTransform[numSections];
@@ -85,9 +88,19 @@ public class AlertMeter : MonoBehaviour
             alertAnimator.SetInteger(animatorBoolName, 0);
         }
 
+        float sensitivityThreshold = maxSensitive * 0.3f;
+        if (sensitive >= sensitivityThreshold)
+        {
+            float shakeIntensity = (sensitive - sensitivityThreshold) / sensitivityThreshold;  
+            cameraShake.ShakeCamera(shakeIntensity, 1.5f);  
+        }
+        else
+        {
+            cameraShake.ShakeCamera(0, 0); 
+        }
+
         UpdateAlertMeter();
 
-        // Update the previousSensitive for the next frame
         previousSensitive = sensitive;
     }
 
@@ -101,12 +114,10 @@ public class AlertMeter : MonoBehaviour
         {
             if (i < sectionsToShow)
             {
-                // Enable the rectangle (set to its original size)
                 alertSections[i].sizeDelta = new Vector2(initialSize.x, initialSize.y);
             }
             else
             {
-                // Hide the section (set size to zero)
                 alertSections[i].sizeDelta = Vector2.zero;
             }
         }
