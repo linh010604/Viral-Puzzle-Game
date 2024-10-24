@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.019744243, g: 0.019744243, b: 0.019744243, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1657,7 +1657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1297810462479210113, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1524468105577389862, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_IsActive
@@ -1705,15 +1705,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590562610829, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 989.0042
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590562610829, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 618
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665123590562610829, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590562610829, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 10
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 1665123590562610829, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1898,6 +1902,10 @@ PrefabInstance:
     - target: {fileID: 6110077953124923846, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748848558370534265, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 243
       objectReference: {fileID: 0}
     - target: {fileID: 7247191994920188456, guid: 1d342cf8b8aea7840ae58f016e405dc8, type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.size
