@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 5513668218724301781}
   - component: {fileID: 8815713032818636219}
   - component: {fileID: 6729780624690106680}
+  - component: {fileID: 4299196913714008640}
   m_Layer: 5
   m_Name: AlertMeter
   m_TagString: AlertMeter
@@ -213,6 +214,27 @@ MonoBehaviour:
   borderSprite: {fileID: 21300000, guid: ebfc7049543994ef1b3535cf4d74a4ec, type: 3}
   playerController: {fileID: 0}
   alertAnimator: {fileID: 3240938594598744668}
+--- !u!95 &4299196913714008640
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302563577112662133}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3229577fc27814394b29076ebf737c91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2632663661902188531
 PrefabInstance:
   m_ObjectHideFlags: 0
