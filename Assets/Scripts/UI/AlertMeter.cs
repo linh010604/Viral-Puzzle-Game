@@ -7,23 +7,19 @@ public class AlertMeter : MonoBehaviour
 {
     public float maxSensitive = 100.0f;  // Max sensitivity value
     public float sensitive = 0.0f;       // Current sensitivity
-    public float increaseRate = 5.0f;    // Sensitivity increase rate
+    public float increaseRate = 5.0f;   // Sensitivity increase rate
     public float decreaseRate = 35.0f;   // Sensitivity decrease rate
 
-    public int numSections = 11;         // Number of sections in the alert meter
+    public int numSections = 11;          // Number of sections in the alert meter
     public Color[] sectionColors;        // Colors for each section of the alert meter
     public Vector2 sectionSize = new Vector2(65, 20); // Size of each rectangle (width, height)
-    public float sectionSpacing = 10f;   // Space between each rectangle
+    public float sectionSpacing = 10f;    // Space between each rectangle
 
-    public Sprite borderSprite;          // The 9-slice sprite for the border
+    public Sprite borderSprite;           // The 9-slice sprite for the border
     public PlayerController playerController; // Reference to the PlayerController for movement
     private RectTransform[] alertSections;    // Temp array to store the alert sections
 
     private Vector2 initialSize;
-    private float previousSensitive;      // Store previous sensitivity value
-
-    public Animator alertAnimator;
-    string animatorBoolName = "status";
 
     void Start()
     {
@@ -52,13 +48,10 @@ public class AlertMeter : MonoBehaviour
         }
 
         initialSize = sectionSize;
-        previousSensitive = sensitive;  // Initialize previousSensitive to the starting value of sensitive
     }
 
     void Update()
     {
-        float currentSensitive = sensitive;
-
         if (playerController.isMovingForward)
         {
             sensitive = Mathf.Clamp(sensitive + increaseRate * Time.deltaTime, 0, maxSensitive);
@@ -68,27 +61,7 @@ public class AlertMeter : MonoBehaviour
             sensitive = Mathf.Clamp(sensitive - decreaseRate * Time.deltaTime, 0, maxSensitive);
         }
 
-        // Determine the direction of sensitivity change
-        if (sensitive > currentSensitive)
-        {
-            // 1 is increasing
-            alertAnimator.SetInteger(animatorBoolName, 1);
-        }
-        else if (sensitive < currentSensitive)
-        {
-            // -1 is decreasing
-            alertAnimator.SetInteger(animatorBoolName, -1);
-        }
-        else
-        {
-            // 0 is idle
-            alertAnimator.SetInteger(animatorBoolName, 0);
-        }
-
         UpdateAlertMeter();
-
-        // Update the previousSensitive for the next frame
-        previousSensitive = sensitive;
     }
 
     void UpdateAlertMeter()

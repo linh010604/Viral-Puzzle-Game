@@ -20,6 +20,7 @@ public class HintText : MonoBehaviour
         {
           
             dialogText.text = enterText;
+            //Debug.Log("Player near button. Press 'E' to interact.");
         }
     }
 
@@ -29,6 +30,7 @@ public class HintText : MonoBehaviour
         {
 
             dialogText.text = exitText;
+            //Debug.Log("Player near button. Press 'E' to interact.");
         }
     }
 }
