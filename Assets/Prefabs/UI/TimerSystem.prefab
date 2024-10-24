@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 1973009171205742732}
   - component: {fileID: 1973009171205742733}
   - component: {fileID: 2177604189755390609}
+  - component: {fileID: 1209140394281811908}
   m_Layer: 5
   m_Name: TimerSystem
   m_TagString: Untagged
@@ -229,3 +230,24 @@ MonoBehaviour:
   hours: 0
   fontColor: {r: 0.70980394, g: 0.06274474, b: 0.06274474, a: 1}
   showMilliseconds: 0
+--- !u!95 &1209140394281811908
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973009171205742736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ee55a541e4fc4382b6a3fffdf8a2087, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
