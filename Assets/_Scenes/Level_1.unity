@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028429, g: 0.2257154, b: 0.30692264, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028405, g: 0.22571522, b: 0.3069222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -694,6 +694,7 @@ GameObject:
   - component: {fileID: 21914964}
   - component: {fileID: 21914963}
   - component: {fileID: 21914962}
+  - component: {fileID: 21914965}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (9)
   m_TagString: Untagged
@@ -788,6 +789,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21914960}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &21914965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21914960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!224 &23415991 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5038074304790965730, guid: 86f3968f30916cf4997a02cbb0b075e1, type: 3}
@@ -959,6 +974,7 @@ GameObject:
   - component: {fileID: 80400991}
   - component: {fileID: 80400990}
   - component: {fileID: 80400989}
+  - component: {fileID: 80400992}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (64)
   m_TagString: Untagged
@@ -1053,6 +1069,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80400987}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &80400992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80400987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &82939698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1371,6 +1401,7 @@ GameObject:
   - component: {fileID: 108962163}
   - component: {fileID: 108962162}
   - component: {fileID: 108962161}
+  - component: {fileID: 108962164}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (27)
   m_TagString: Untagged
@@ -1465,6 +1496,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108962159}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &108962164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108962159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!43 &117658000
 Mesh:
   m_ObjectHideFlags: 0
@@ -1884,6 +1929,7 @@ GameObject:
   - component: {fileID: 150016244}
   - component: {fileID: 150016243}
   - component: {fileID: 150016242}
+  - component: {fileID: 150016245}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (18)
   m_TagString: Untagged
@@ -1978,6 +2024,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150016240}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &150016245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150016240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &150037475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2050,7 @@ GameObject:
   - component: {fileID: 150037479}
   - component: {fileID: 150037478}
   - component: {fileID: 150037477}
+  - component: {fileID: 150037480}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (51)
   m_TagString: Untagged
@@ -2084,6 +2145,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150037475}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &150037480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150037475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &159106635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,6 +2567,7 @@ GameObject:
   - component: {fileID: 159807142}
   - component: {fileID: 159807141}
   - component: {fileID: 159807140}
+  - component: {fileID: 159807143}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (39)
   m_TagString: Untagged
@@ -2586,6 +2662,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159807138}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &159807143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159807138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &174087294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,6 +3141,7 @@ GameObject:
   - component: {fileID: 185628031}
   - component: {fileID: 185628030}
   - component: {fileID: 185628029}
+  - component: {fileID: 185628032}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (48)
   m_TagString: Untagged
@@ -3145,6 +3236,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185628027}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &185628032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185628027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &189142208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4699,6 +4804,7 @@ GameObject:
   - component: {fileID: 243551175}
   - component: {fileID: 243551174}
   - component: {fileID: 243551173}
+  - component: {fileID: 243551176}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (41)
   m_TagString: Untagged
@@ -4793,6 +4899,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243551171}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &243551176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243551171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &245913743
 GameObject:
   m_ObjectHideFlags: 0
@@ -5688,6 +5808,7 @@ GameObject:
   - component: {fileID: 325402657}
   - component: {fileID: 325402656}
   - component: {fileID: 325402655}
+  - component: {fileID: 325402658}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (4)
   m_TagString: Untagged
@@ -5782,6 +5903,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325402653}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &325402658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325402653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &327640850
 GameObject:
   m_ObjectHideFlags: 0
@@ -5794,6 +5929,7 @@ GameObject:
   - component: {fileID: 327640854}
   - component: {fileID: 327640853}
   - component: {fileID: 327640852}
+  - component: {fileID: 327640855}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (14)
   m_TagString: Untagged
@@ -5888,6 +6024,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327640850}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &327640855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327640850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!224 &327802882 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5038074304790965730, guid: 86f3968f30916cf4997a02cbb0b075e1, type: 3}
@@ -5905,6 +6055,7 @@ GameObject:
   - component: {fileID: 328251962}
   - component: {fileID: 328251961}
   - component: {fileID: 328251960}
+  - component: {fileID: 328251963}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (50)
   m_TagString: Untagged
@@ -5999,6 +6150,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328251958}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &328251963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328251958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -6423,6 +6588,7 @@ GameObject:
   - component: {fileID: 359856958}
   - component: {fileID: 359856957}
   - component: {fileID: 359856956}
+  - component: {fileID: 359856959}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (24)
   m_TagString: Untagged
@@ -6517,6 +6683,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359856954}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &359856959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359856954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!224 &380948196 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5038074304790965730, guid: 86f3968f30916cf4997a02cbb0b075e1, type: 3}
@@ -6534,6 +6714,7 @@ GameObject:
   - component: {fileID: 392094966}
   - component: {fileID: 392094965}
   - component: {fileID: 392094964}
+  - component: {fileID: 392094967}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (61)
   m_TagString: Untagged
@@ -6628,6 +6809,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392094962}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &392094967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392094962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &405494690
 GameObject:
   m_ObjectHideFlags: 0
@@ -6762,6 +6957,7 @@ GameObject:
   - component: {fileID: 406922310}
   - component: {fileID: 406922309}
   - component: {fileID: 406922308}
+  - component: {fileID: 406922311}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (40)
   m_TagString: Untagged
@@ -6856,6 +7052,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406922306}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &406922311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406922306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6986,6 +7196,7 @@ GameObject:
   - component: {fileID: 420846755}
   - component: {fileID: 420846754}
   - component: {fileID: 420846753}
+  - component: {fileID: 420846756}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (19)
   m_TagString: Untagged
@@ -7080,6 +7291,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420846751}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &420846756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420846751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!43 &422165065
 Mesh:
   m_ObjectHideFlags: 0
@@ -7257,6 +7482,7 @@ GameObject:
   - component: {fileID: 426059191}
   - component: {fileID: 426059190}
   - component: {fileID: 426059189}
+  - component: {fileID: 426059192}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (42)
   m_TagString: Untagged
@@ -7351,6 +7577,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426059187}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &426059192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426059187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &457058596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7529,6 +7769,7 @@ GameObject:
   - component: {fileID: 464402446}
   - component: {fileID: 464402445}
   - component: {fileID: 464402444}
+  - component: {fileID: 464402447}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (32)
   m_TagString: Untagged
@@ -7623,6 +7864,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464402442}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &464402447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464402442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!4 &466623741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2732040239930696182, guid: ea9cfe3c47e5a1442b59c42a21e8802f, type: 3}
@@ -9257,6 +9512,7 @@ GameObject:
   - component: {fileID: 516202986}
   - component: {fileID: 516202985}
   - component: {fileID: 516202984}
+  - component: {fileID: 516202987}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (65)
   m_TagString: Untagged
@@ -9351,6 +9607,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516202982}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &516202987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516202982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &529924389
 GameObject:
   m_ObjectHideFlags: 0
@@ -9410,6 +9680,7 @@ GameObject:
   - component: {fileID: 536223567}
   - component: {fileID: 536223566}
   - component: {fileID: 536223565}
+  - component: {fileID: 536223568}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (43)
   m_TagString: Untagged
@@ -9504,6 +9775,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536223563}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &536223568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536223563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &540437191
 GameObject:
   m_ObjectHideFlags: 0
@@ -9516,6 +9801,7 @@ GameObject:
   - component: {fileID: 540437195}
   - component: {fileID: 540437194}
   - component: {fileID: 540437193}
+  - component: {fileID: 540437196}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (31)
   m_TagString: Untagged
@@ -9610,6 +9896,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540437191}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &540437196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540437191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &541752765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecfc4e1ab540c7d4bbafe87992a688c4, type: 3}
@@ -9827,6 +10127,7 @@ GameObject:
   - component: {fileID: 616559950}
   - component: {fileID: 616559949}
   - component: {fileID: 616559948}
+  - component: {fileID: 616559951}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (37)
   m_TagString: Untagged
@@ -9921,6 +10222,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616559946}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &616559951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616559946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &651800714 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
@@ -10719,6 +11034,7 @@ GameObject:
   - component: {fileID: 737911395}
   - component: {fileID: 737911394}
   - component: {fileID: 737911393}
+  - component: {fileID: 737911396}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (16)
   m_TagString: Untagged
@@ -10813,6 +11129,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737911391}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &737911396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737911391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &746897204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11048,6 +11378,7 @@ GameObject:
   - component: {fileID: 763955170}
   - component: {fileID: 763955169}
   - component: {fileID: 763955168}
+  - component: {fileID: 763955171}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (10)
   m_TagString: Untagged
@@ -11142,6 +11473,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763955166}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &763955171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763955166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &789512100
 GameObject:
   m_ObjectHideFlags: 0
@@ -11154,6 +11499,7 @@ GameObject:
   - component: {fileID: 789512104}
   - component: {fileID: 789512103}
   - component: {fileID: 789512102}
+  - component: {fileID: 789512105}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (45)
   m_TagString: Untagged
@@ -11248,6 +11594,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789512100}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &789512105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789512100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &791751774
 GameObject:
   m_ObjectHideFlags: 0
@@ -12226,6 +12586,7 @@ GameObject:
   - component: {fileID: 842315205}
   - component: {fileID: 842315204}
   - component: {fileID: 842315203}
+  - component: {fileID: 842315206}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (1)
   m_TagString: Untagged
@@ -12320,6 +12681,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842315201}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &842315206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842315201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!114 &857038406 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7808045989057248483, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
@@ -12343,6 +12718,7 @@ GameObject:
   - component: {fileID: 870071263}
   - component: {fileID: 870071262}
   - component: {fileID: 870071261}
+  - component: {fileID: 870071264}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (29)
   m_TagString: Untagged
@@ -12437,6 +12813,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870071259}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &870071264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870071259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!43 &872864306
 Mesh:
   m_ObjectHideFlags: 0
@@ -12614,6 +13004,7 @@ GameObject:
   - component: {fileID: 881663963}
   - component: {fileID: 881663962}
   - component: {fileID: 881663961}
+  - component: {fileID: 881663964}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (38)
   m_TagString: Untagged
@@ -12708,6 +13099,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881663959}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &881663964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881663959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!114 &888347484 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6729780624690106680, guid: f07cc00d8d4194226a3c5d80a0b8752b, type: 3}
@@ -13475,6 +13880,7 @@ GameObject:
   - component: {fileID: 897667307}
   - component: {fileID: 897667306}
   - component: {fileID: 897667305}
+  - component: {fileID: 897667308}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (23)
   m_TagString: Untagged
@@ -13569,6 +13975,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897667303}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &897667308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897667303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &911863742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
@@ -14825,6 +15245,7 @@ GameObject:
   - component: {fileID: 973350167}
   - component: {fileID: 973350166}
   - component: {fileID: 973350165}
+  - component: {fileID: 973350168}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (2)
   m_TagString: Untagged
@@ -14919,6 +15340,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973350163}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &973350168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973350163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &983337345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15031,6 +15466,7 @@ GameObject:
   - component: {fileID: 999721661}
   - component: {fileID: 999721660}
   - component: {fileID: 999721659}
+  - component: {fileID: 999721662}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (58)
   m_TagString: Untagged
@@ -15125,6 +15561,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999721657}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &999721662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999721657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1000997298
 GameObject:
   m_ObjectHideFlags: 0
@@ -15137,6 +15587,7 @@ GameObject:
   - component: {fileID: 1000997302}
   - component: {fileID: 1000997301}
   - component: {fileID: 1000997300}
+  - component: {fileID: 1000997303}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (56)
   m_TagString: Untagged
@@ -15231,6 +15682,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000997298}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1000997303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000997298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1020615796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
@@ -15248,6 +15713,7 @@ GameObject:
   - component: {fileID: 1028815478}
   - component: {fileID: 1028815477}
   - component: {fileID: 1028815476}
+  - component: {fileID: 1028815479}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (33)
   m_TagString: Untagged
@@ -15342,6 +15808,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028815474}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1028815479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028815474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1037141854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15589,6 +16069,7 @@ GameObject:
   - component: {fileID: 1065393721}
   - component: {fileID: 1065393720}
   - component: {fileID: 1065393719}
+  - component: {fileID: 1065393722}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (11)
   m_TagString: Untagged
@@ -15683,6 +16164,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065393717}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1065393722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065393717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1088454905
 GameObject:
   m_ObjectHideFlags: 0
@@ -15695,6 +16190,7 @@ GameObject:
   - component: {fileID: 1088454909}
   - component: {fileID: 1088454908}
   - component: {fileID: 1088454907}
+  - component: {fileID: 1088454910}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (36)
   m_TagString: Untagged
@@ -15789,6 +16285,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088454905}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1088454910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088454905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1101276440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07031a2696781ed4a9afa140d0e6f5b2, type: 3}
@@ -16484,6 +16994,7 @@ GameObject:
   - component: {fileID: 1128621300}
   - component: {fileID: 1128621299}
   - component: {fileID: 1128621298}
+  - component: {fileID: 1128621301}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (49)
   m_TagString: Untagged
@@ -16578,6 +17089,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128621296}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1128621301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128621296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1136412372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16812,6 +17337,7 @@ GameObject:
   - component: {fileID: 1177468062}
   - component: {fileID: 1177468061}
   - component: {fileID: 1177468060}
+  - component: {fileID: 1177468063}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (52)
   m_TagString: Untagged
@@ -16906,6 +17432,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177468058}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1177468063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177468058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1213153617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51716,6 +52256,7 @@ GameObject:
   - component: {fileID: 1273138301}
   - component: {fileID: 1273138300}
   - component: {fileID: 1273138299}
+  - component: {fileID: 1273138302}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (6)
   m_TagString: Untagged
@@ -51810,6 +52351,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273138297}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1273138302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273138297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1275723107
 GameObject:
   m_ObjectHideFlags: 0
@@ -51822,6 +52377,7 @@ GameObject:
   - component: {fileID: 1275723111}
   - component: {fileID: 1275723110}
   - component: {fileID: 1275723109}
+  - component: {fileID: 1275723112}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (62)
   m_TagString: Untagged
@@ -51916,6 +52472,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275723107}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1275723112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275723107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1278681758
 GameObject:
   m_ObjectHideFlags: 0
@@ -86059,6 +86629,7 @@ GameObject:
   - component: {fileID: 1286142262}
   - component: {fileID: 1286142261}
   - component: {fileID: 1286142260}
+  - component: {fileID: 1286142263}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (35)
   m_TagString: Untagged
@@ -86153,6 +86724,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286142258}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1286142263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286142258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1314181486
 GameObject:
   m_ObjectHideFlags: 0
@@ -86165,6 +86750,7 @@ GameObject:
   - component: {fileID: 1314181490}
   - component: {fileID: 1314181489}
   - component: {fileID: 1314181488}
+  - component: {fileID: 1314181491}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (25)
   m_TagString: Untagged
@@ -86259,6 +86845,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314181486}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1314181491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314181486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1330453479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86371,6 +86971,7 @@ GameObject:
   - component: {fileID: 1348122261}
   - component: {fileID: 1348122260}
   - component: {fileID: 1348122259}
+  - component: {fileID: 1348122262}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (63)
   m_TagString: Untagged
@@ -86465,6 +87066,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348122257}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1348122262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348122257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1358556601
 GameObject:
   m_ObjectHideFlags: 0
@@ -86477,6 +87092,7 @@ GameObject:
   - component: {fileID: 1358556605}
   - component: {fileID: 1358556604}
   - component: {fileID: 1358556603}
+  - component: {fileID: 1358556606}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (55)
   m_TagString: Untagged
@@ -86571,6 +87187,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358556601}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1358556606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358556601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1367022873
 GameObject:
   m_ObjectHideFlags: 0
@@ -87832,6 +88462,7 @@ GameObject:
   - component: {fileID: 1401046402}
   - component: {fileID: 1401046401}
   - component: {fileID: 1401046400}
+  - component: {fileID: 1401046403}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (57)
   m_TagString: Untagged
@@ -87926,6 +88557,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401046398}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1401046403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401046398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1442295825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88133,6 +88778,7 @@ GameObject:
   - component: {fileID: 1530074966}
   - component: {fileID: 1530074965}
   - component: {fileID: 1530074964}
+  - component: {fileID: 1530074967}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (60)
   m_TagString: Untagged
@@ -88227,6 +88873,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530074962}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1530074967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530074962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1560551188
 GameObject:
   m_ObjectHideFlags: 0
@@ -88350,6 +89010,7 @@ GameObject:
   - component: {fileID: 1572223132}
   - component: {fileID: 1572223131}
   - component: {fileID: 1572223130}
+  - component: {fileID: 1572223133}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (21)
   m_TagString: Untagged
@@ -88444,6 +89105,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572223128}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1572223133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572223128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1579315216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89108,6 +89783,7 @@ GameObject:
   - component: {fileID: 1616796924}
   - component: {fileID: 1616796923}
   - component: {fileID: 1616796922}
+  - component: {fileID: 1616796925}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (5)
   m_TagString: Untagged
@@ -89202,6 +89878,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616796920}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1616796925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616796920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1618733560
 GameObject:
   m_ObjectHideFlags: 0
@@ -89214,6 +89904,7 @@ GameObject:
   - component: {fileID: 1618733564}
   - component: {fileID: 1618733563}
   - component: {fileID: 1618733562}
+  - component: {fileID: 1618733565}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (54)
   m_TagString: Untagged
@@ -89308,6 +89999,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618733560}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1618733565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618733560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1623413053
 GameObject:
   m_ObjectHideFlags: 0
@@ -89320,6 +90025,7 @@ GameObject:
   - component: {fileID: 1623413057}
   - component: {fileID: 1623413056}
   - component: {fileID: 1623413055}
+  - component: {fileID: 1623413058}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (59)
   m_TagString: Untagged
@@ -89414,6 +90120,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623413053}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1623413058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623413053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!4 &1624898233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6424559459092593376, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
@@ -89442,6 +90162,7 @@ GameObject:
   - component: {fileID: 1639469631}
   - component: {fileID: 1639469630}
   - component: {fileID: 1639469629}
+  - component: {fileID: 1639469632}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (30)
   m_TagString: Untagged
@@ -89536,6 +90257,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639469627}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1639469632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639469627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!224 &1654905365 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5038074304790965730, guid: 86f3968f30916cf4997a02cbb0b075e1, type: 3}
@@ -89946,6 +90681,7 @@ GameObject:
   - component: {fileID: 1677053412}
   - component: {fileID: 1677053411}
   - component: {fileID: 1677053410}
+  - component: {fileID: 1677053413}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (12)
   m_TagString: Untagged
@@ -90040,6 +90776,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677053408}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1677053413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677053408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1696123060
 GameObject:
   m_ObjectHideFlags: 0
@@ -90052,6 +90802,7 @@ GameObject:
   - component: {fileID: 1696123064}
   - component: {fileID: 1696123063}
   - component: {fileID: 1696123062}
+  - component: {fileID: 1696123065}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (7)
   m_TagString: Untagged
@@ -90146,6 +90897,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696123060}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1696123065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696123060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1701720697
 GameObject:
   m_ObjectHideFlags: 0
@@ -90158,6 +90923,7 @@ GameObject:
   - component: {fileID: 1701720701}
   - component: {fileID: 1701720700}
   - component: {fileID: 1701720699}
+  - component: {fileID: 1701720702}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (15)
   m_TagString: Untagged
@@ -90252,6 +91018,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701720697}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1701720702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701720697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1709970671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92403,6 +93183,7 @@ GameObject:
   - component: {fileID: 1755100346}
   - component: {fileID: 1755100345}
   - component: {fileID: 1755100344}
+  - component: {fileID: 1755100347}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (13)
   m_TagString: Untagged
@@ -92497,6 +93278,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755100342}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1755100347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755100342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1759511718
 GameObject:
   m_ObjectHideFlags: 0
@@ -93582,6 +94377,7 @@ GameObject:
   - component: {fileID: 1763726490}
   - component: {fileID: 1763726489}
   - component: {fileID: 1763726488}
+  - component: {fileID: 1763726491}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (53)
   m_TagString: Untagged
@@ -93676,6 +94472,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763726486}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1763726491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763726486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1763824066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93921,6 +94731,7 @@ GameObject:
   - component: {fileID: 1783781166}
   - component: {fileID: 1783781165}
   - component: {fileID: 1783781164}
+  - component: {fileID: 1783781167}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (34)
   m_TagString: Untagged
@@ -94015,6 +94826,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783781162}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1783781167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783781162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &1796852024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95308,6 +96133,7 @@ GameObject:
   - component: {fileID: 1837145380}
   - component: {fileID: 1837145379}
   - component: {fileID: 1837145378}
+  - component: {fileID: 1837145381}
   m_Layer: 0
   m_Name: ViralModularFloorPiece
   m_TagString: Untagged
@@ -95402,6 +96228,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837145376}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1837145381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837145376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1846472512
 GameObject:
   m_ObjectHideFlags: 0
@@ -95414,6 +96254,7 @@ GameObject:
   - component: {fileID: 1846472516}
   - component: {fileID: 1846472515}
   - component: {fileID: 1846472514}
+  - component: {fileID: 1846472517}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (28)
   m_TagString: Untagged
@@ -95508,6 +96349,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846472512}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1846472517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846472512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!43 &1878254165
 Mesh:
   m_ObjectHideFlags: 0
@@ -95949,6 +96804,7 @@ GameObject:
   - component: {fileID: 1893921477}
   - component: {fileID: 1893921476}
   - component: {fileID: 1893921475}
+  - component: {fileID: 1893921478}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (20)
   m_TagString: Untagged
@@ -96043,6 +96899,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893921473}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1893921478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893921473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1917549721
 GameObject:
   m_ObjectHideFlags: 0
@@ -96055,6 +96925,7 @@ GameObject:
   - component: {fileID: 1917549725}
   - component: {fileID: 1917549724}
   - component: {fileID: 1917549723}
+  - component: {fileID: 1917549726}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (22)
   m_TagString: Untagged
@@ -96149,6 +97020,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917549721}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1917549726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917549721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1919755733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2e6592297c1dff40901e4db04f18465, type: 3}
@@ -96200,6 +97085,7 @@ GameObject:
   - component: {fileID: 1930533347}
   - component: {fileID: 1930533346}
   - component: {fileID: 1930533345}
+  - component: {fileID: 1930533348}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (17)
   m_TagString: Untagged
@@ -96294,6 +97180,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930533343}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1930533348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930533343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!43 &1967125324
 Mesh:
   m_ObjectHideFlags: 0
@@ -96636,6 +97536,7 @@ GameObject:
   - component: {fileID: 1986992835}
   - component: {fileID: 1986992834}
   - component: {fileID: 1986992833}
+  - component: {fileID: 1986992836}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (26)
   m_TagString: Untagged
@@ -96730,6 +97631,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986992831}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1986992836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986992831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1990125418
 GameObject:
   m_ObjectHideFlags: 0
@@ -96742,6 +97657,7 @@ GameObject:
   - component: {fileID: 1990125422}
   - component: {fileID: 1990125421}
   - component: {fileID: 1990125420}
+  - component: {fileID: 1990125423}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (47)
   m_TagString: Untagged
@@ -96836,6 +97752,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990125418}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1990125423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990125418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1991709272
 GameObject:
   m_ObjectHideFlags: 0
@@ -96848,6 +97778,7 @@ GameObject:
   - component: {fileID: 1991709276}
   - component: {fileID: 1991709275}
   - component: {fileID: 1991709274}
+  - component: {fileID: 1991709277}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (8)
   m_TagString: Untagged
@@ -96942,6 +97873,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991709272}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1991709277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991709272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &1994177393
 GameObject:
   m_ObjectHideFlags: 0
@@ -97060,6 +98005,7 @@ GameObject:
   - component: {fileID: 1998202516}
   - component: {fileID: 1998202515}
   - component: {fileID: 1998202514}
+  - component: {fileID: 1998202517}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (44)
   m_TagString: Untagged
@@ -97154,6 +98100,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998202512}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &1998202517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998202512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1001 &2028508920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98071,6 +99031,7 @@ GameObject:
   - component: {fileID: 2096475311}
   - component: {fileID: 2096475310}
   - component: {fileID: 2096475309}
+  - component: {fileID: 2096475312}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (3)
   m_TagString: Untagged
@@ -98165,6 +99126,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096475307}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &2096475312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096475307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &2116943727
 GameObject:
   m_ObjectHideFlags: 0
@@ -98177,6 +99152,7 @@ GameObject:
   - component: {fileID: 2116943731}
   - component: {fileID: 2116943730}
   - component: {fileID: 2116943729}
+  - component: {fileID: 2116943732}
   m_Layer: 0
   m_Name: ViralModularFloorPiece (46)
   m_TagString: Untagged
@@ -98271,6 +99247,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116943727}
   m_Mesh: {fileID: -3094655082139909734, guid: 016261f77a446fd4eb69444f58b903e9, type: 3}
+--- !u!114 &2116943732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116943727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3a78828f99e44be906e6ad1699b565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeredColor: {r: 1, g: 0, b: 0, a: 1}
+  colorChangeDuration: 0.5
 --- !u!1 &2120464322
 GameObject:
   m_ObjectHideFlags: 0
