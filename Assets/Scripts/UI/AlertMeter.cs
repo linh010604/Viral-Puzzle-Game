@@ -25,8 +25,6 @@ public class AlertMeter : MonoBehaviour
     public Animator alertAnimator;
     string animatorBoolName = "status";
 
-    // Reference to CinemachineCameraShake script
-    public CinemachineCameraShake cameraShake;
 
     void Start()
     {
@@ -88,15 +86,15 @@ public class AlertMeter : MonoBehaviour
             alertAnimator.SetInteger(animatorBoolName, 0);
         }
 
-        float sensitivityThreshold = maxSensitive * 0.3f;
+        float sensitivityThreshold = maxSensitive * 0.2f;
         if (sensitive >= sensitivityThreshold)
         {
             float shakeIntensity = (sensitive - sensitivityThreshold) / sensitivityThreshold;  
-            cameraShake.ShakeCamera(shakeIntensity, 1.5f);  
+            CinemachineCameraShake.Instance.ShakeCamera(shakeIntensity, 1.5f);  
         }
         else
         {
-            cameraShake.ShakeCamera(0, 0); 
+            CinemachineCameraShake.Instance.ShakeCamera(0, 0); 
         }
 
         UpdateAlertMeter();
