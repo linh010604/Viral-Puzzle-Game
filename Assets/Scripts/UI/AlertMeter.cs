@@ -58,6 +58,13 @@ public class AlertMeter : MonoBehaviour
 
     void Update()
     {
+        if (playerController.DialogueUI.IsOpen) 
+        {
+            // IDLE (STOPPED)
+            alertAnimator.speed = 0;
+            return;
+        }
+        alertAnimator.speed = 1;
         float currentSensitive = sensitive;
 
         if (playerController.isMovingForward)

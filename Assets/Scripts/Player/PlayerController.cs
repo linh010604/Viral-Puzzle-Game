@@ -16,6 +16,13 @@ public class PlayerController : MonoBehaviour
     // Track whether the player is moving forward
     public bool isMovingForward = false;
 
+    [SerializeField] private DialogueUI dialogueUI;
+    
+
+    public DialogueUI DialogueUI => dialogueUI;
+    
+    public IInteractable Interactable { get; set; }
+
     private void Awake()
     {
         controller = new InputSystem_Actions();
@@ -42,6 +49,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        
         float x = controller.Player.Move.ReadValue<Vector2>().x;
         float z = controller.Player.Move.ReadValue<Vector2>().y;
 
@@ -51,6 +59,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (dialogueUI.IsOpen) return;
         rb.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
 
         // Check if the player's position has changed 
@@ -83,5 +92,12 @@ public class PlayerController : MonoBehaviour
     public void RecoverSpeed()
     {
         speed = initialSpeed;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out IInteractable interactable))
+        {
+            Interactable?.Interact(this);
+        }
     }
 }
