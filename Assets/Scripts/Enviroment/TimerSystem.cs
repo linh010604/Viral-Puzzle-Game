@@ -1,13 +1,10 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System;
 
 public class TimerSystem : MonoBehaviour
 {
-
     public TextMeshProUGUI timerText;
 
     [Header("Time Values")]
@@ -18,26 +15,37 @@ public class TimerSystem : MonoBehaviour
     [Range(0, 60)]
     public int hours;
 
-    public Color fontColor;
+    public Color startColor = Color.white;
+    public Color flashColor = Color.red;
 
     public bool showMilliseconds;
 
     private float currentSeconds;
     private int timerDefault;
-
+    public PlayerController playerController;
 
     private bool gameEnded = false;
+    private bool isFlashing = false;
+    private Coroutine flashCoroutine;
 
     void Start()
     {
         timerDefault = 0;
         timerDefault += (seconds + (minutes * 60) + (hours * 60 * 60));
         currentSeconds = timerDefault;
-
+        timerText.color = startColor;
     }
 
     void Update()
     {
+        if (playerController != null && playerController.DialogueUI.IsOpen) {
+            if (!isFlashing) 
+            {
+                flashCoroutine = StartCoroutine(FlashText());
+            }
+            return;
+        }
+
         if ((currentSeconds -= Time.deltaTime) <= 0)
         {
             TimeUp();
@@ -47,20 +55,20 @@ public class TimerSystem : MonoBehaviour
         {
             if (showMilliseconds)
             {
-                if (currentSeconds <= 10f)
-                {
-                    if (fontColor == Color.white)
-                        fontColor = Color.red;  // Flash red when 10 seconds are left
-                    else
-                    {
-                        fontColor = Color.white;  // Normal color
-                    }
-                }
                 timerText.text = TimeSpan.FromSeconds(currentSeconds).ToString(@"hh\:mm\:ss\:fff");
             }
-                
             else
+            {
                 timerText.text = TimeSpan.FromSeconds(currentSeconds).ToString(@"hh\:mm\:ss");
+            }
+
+            if (currentSeconds <= 10f && !isFlashing)
+            {
+                flashCoroutine = StartCoroutine(FlashText());
+            }else if (currentSeconds > 10f && isFlashing)
+            {
+                StopFlashing();
+            }
         }
     }
 
@@ -70,6 +78,9 @@ public class TimerSystem : MonoBehaviour
             timerText.text = "00:00:00:000";
         else
             timerText.text = "00:00:00";
+
+        StopFlashing();  // Stop flashing when time is up
+        timerText.color = startColor;  // Reset to default color
     }
 
     private void EndGame()
@@ -81,8 +92,30 @@ public class TimerSystem : MonoBehaviour
             GameManager.instance.GameOver();
         }
 
-        // Optional: You can pause the game by setting Time.timeScale to 0
         Time.timeScale = 0f;  // Freeze the game
+        StopFlashing();  
     }
 
+    private void StopFlashing()
+    {
+        if (isFlashing)
+        {
+            StopCoroutine(flashCoroutine);  
+            isFlashing = false; 
+            timerText.color = startColor;  
+        }
+    }
+
+    IEnumerator FlashText()
+    {
+        isFlashing = true;
+        while (currentSeconds > 0)
+        {
+            timerText.color = flashColor;
+            yield return new WaitForSeconds(0.5f); 
+            timerText.color = startColor;
+            yield return new WaitForSeconds(0.5f); 
+        }
+        isFlashing = false; 
+    }
 }

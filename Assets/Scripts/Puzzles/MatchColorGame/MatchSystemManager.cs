@@ -14,6 +14,7 @@ public class MatchSystemManager : MonoBehaviour
     private List<MatchEntity> matchEntities;
     private int targetMatchCount;
     private int currentMatchCount = 0;
+    private bool paired = false;
     
 
     // Start is called before the first frame update
@@ -29,11 +30,7 @@ public class MatchSystemManager : MonoBehaviour
 
     public bool AllPaired()
     {
-        if (currentMatchCount == targetMatchCount)
-        {
-            return true;
-        }
-        return false;
+        return paired;
     }
 
     void SetEntityColors()
@@ -79,6 +76,8 @@ public class MatchSystemManager : MonoBehaviour
         if (currentMatchCount == targetMatchCount)
         {
             Debug.Log("All Paired!");
+
+            paired = true;
 
             StartCoroutine(ShowCompleteTextAndDisableSystem());
 

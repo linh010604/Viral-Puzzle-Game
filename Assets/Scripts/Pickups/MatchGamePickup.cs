@@ -12,7 +12,7 @@ public class PuzzlePickup : Pickup
 
     public PlayerController player; // plyer
 
-    public TMPro.TMP_Text dialogText; // Reference to hint dialog text
+    public HintText dialogText; // Reference to hint dialog text
 
     public int lowerAmount = 3; // Amount to lower the hit threshold
 
@@ -31,8 +31,9 @@ public class PuzzlePickup : Pickup
     /// <param name="collision">The collider that caused this to be picked up</param>
     void Update()
     {
+
         // Check if the player is in range and e is pressed
-        if (matchSystem.AllPaired() && playerInRange && !activated)
+        if (matchSystem.AllPaired() && !activated)
         {
             //Debug.Log("Button pressed!");
             activated = true;
@@ -49,7 +50,6 @@ public class PuzzlePickup : Pickup
             cursorManager.Puzzle();
             matchSystem.Start();
             matchWirePopUp.SetActive(true);
-            dialogText.text = "Match the switches!";
             //Debug.Log("Player near button. Press 'E' to interact.");
             playerInRange = true; // Player is in range
         }
@@ -59,7 +59,6 @@ public class PuzzlePickup : Pickup
     {
         if (other.CompareTag("Player") && !matchSystem.AllPaired())
         {
-            dialogText.text = "Something awesome!";
             playerInRange = false; // Player left the trigger area
         }
     }
@@ -67,13 +66,18 @@ public class PuzzlePickup : Pickup
     void ActivatePuzzle()
     {
 
-        dialogText.text = "Door almost opened. Hit it!";
+        
         Debug.Log("Door opened!");
 
         // Lower the hit threshold of the wall
         if (wallBreaker != null)
         {
-            wallBreaker.LowerHitThreshold(lowerAmount);
+            if (wallBreaker.LowerHitThreshold(lowerAmount))
+                if (dialogText)
+                    dialogText.enterText = "Door opened. Let spread !";
+            else
+                if (dialogText)
+                    dialogText.enterText = "Door almost opened. Hit it!";
         }
     }
 }
