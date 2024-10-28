@@ -228,8 +228,10 @@ MonoBehaviour:
   seconds: 0
   minutes: 3
   hours: 0
-  fontColor: {r: 0.70980394, g: 0.06274474, b: 0.06274474, a: 1}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
   showMilliseconds: 0
+  playerController: {fileID: 4545160998278454350, guid: ea9cfe3c47e5a1442b59c42a21e8802f, type: 3}
 --- !u!95 &1209140394281811908
 Animator:
   serializedVersion: 5
