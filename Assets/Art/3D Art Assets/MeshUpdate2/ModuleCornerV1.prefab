@@ -49,13 +49,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e56b79435391946ae97e0220ec9761bf, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e56b79435391946ae97e0220ec9761bf, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8e60b5f9ea6444000bcbdaf929ec6fff, type: 2}
     - target: {fileID: -7511558181221131132, guid: e56b79435391946ae97e0220ec9761bf, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: cabc35cf9bf3a444c8961a3608006fe3, type: 2}
+      objectReference: {fileID: 2100000, guid: e15c52ab71e544eebb010fb9be3b1bad, type: 2}
     - target: {fileID: 919132149155446097, guid: e56b79435391946ae97e0220ec9761bf, type: 3}
       propertyPath: m_Name
       value: ModuleCornerV1
