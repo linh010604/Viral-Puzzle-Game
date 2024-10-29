@@ -54,10 +54,12 @@ public class AlertMeter : MonoBehaviour
         initialSize = sectionSize;
         previousSensitive = sensitive;  // Initialize previousSensitive to the starting value of sensitive
     }
-
+    public void TakeDamage(float damage)
+    {
+        sensitive += damage;
+    }
     void Update()
     {
-        Debug.Log("Sensitivity: " + sensitive);
         if (gameEnded)
         {
             return;
