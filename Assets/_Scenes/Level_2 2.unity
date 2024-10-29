@@ -47043,6 +47043,14 @@ PrefabInstance:
       propertyPath: pages.Array.data[9]
       value: 
       objectReference: {fileID: 1572020567}
+    - target: {fileID: 1621114223173571488, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level_2 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621114223173571490, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
+      propertyPath: m_Name
+      value: Retry
+      objectReference: {fileID: 0}
     - target: {fileID: 2260314992850448353, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -47091,6 +47099,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 8221617300289733618}
+    - target: {fileID: 8095153708273401587, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8508548018166243385, guid: 94ca2737b5e3c534491e550069c24aa4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
