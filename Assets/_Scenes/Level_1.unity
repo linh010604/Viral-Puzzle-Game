@@ -157,15 +157,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2385598
+      value: 0.23855977
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000003235799
+      value: -0.00000001340312
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000007948815
+      value: 0.0000000032925067
       objectReference: {fileID: 0}
     - target: {fileID: 3360643816285020484, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7040,7 +7040,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 52096c61c846ded42b7fdb2660fce0c4, type: 2}
     - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: hitThreshold
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name
@@ -7346,7 +7346,7 @@ MonoBehaviour:
   player: {fileID: 1774382916}
   lowerAmount: 5
   cursorManager: {fileID: 857038406}
-  wallBreaker: {fileID: 0}
+  wallBreaker: {fileID: 1136412374}
 --- !u!1001 &1188549722
 PrefabInstance:
   m_ObjectHideFlags: 0
