@@ -3848,6 +3848,10 @@ PrefabInstance:
       propertyPath: hitThreshold
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
+      propertyPath: sensitivityIncreaseAmount
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name
       value: BreakableWall (3)
@@ -8844,9 +8848,13 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 466623741}
+    - target: {fileID: 812016457560739506, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
+      propertyPath: m_XAxis.m_MaxSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 826883042462047665, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_AmplitudeGain
-      value: 1.026037
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8866,15 +8874,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000002869166
+      value: 0.000000024686283
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000008060222
+      value: -0.000000006935009
       objectReference: {fileID: 0}
     - target: {fileID: 2510419561467191220, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_AmplitudeGain
-      value: 1.026037
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3360643816285020484, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8918,7 +8926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3574274532049195056, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_AmplitudeGain
-      value: 1.026037
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4195161387072293142, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22232,6 +22240,10 @@ PrefabInstance:
     - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: hitThreshold
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
+      propertyPath: sensitivityIncreaseAmount
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name

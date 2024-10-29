@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc92cc2f17423b2408e04324597c279e, type: 3}
-  m_Name: Wall Dialog
+  m_Name: SecondWall
   m_EditorClassIdentifier: 
   dialogue:
-  - Hmm, I think I need to find a way to decrease the strength of this firewall.
-    Then I can break through! (Press Space to continue)
-  - Perhaps I can interact with one of those green generators I've seen before? (Press
-    Space to continue)
+  - 'Nice Job with breaking the first wall ! '
+  - As you can see, hitting the wall increased the meter's sensitivity. This increase
+    will stay with you along the way!
   responses: []

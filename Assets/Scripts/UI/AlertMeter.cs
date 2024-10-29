@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AlertMeter : MonoBehaviour
 {
     public float maxSensitive = 100.0f;  // Max sensitivity value
+    private float minSensitive = 0.0f;   // Minimum sensitivity (20% of maxSensitive)
     public float sensitive = 0.0f;       // Current sensitivity
     public float increaseRate = 5.0f;    // Sensitivity increase rate
     public float decreaseRate = 35.0f;   // Sensitivity decrease rate
@@ -24,8 +25,6 @@ public class AlertMeter : MonoBehaviour
 
     public Animator alertAnimator;
     string animatorBoolName = "status";
-
-
     void Start()
     {
         alertSections = new RectTransform[numSections];
@@ -69,27 +68,24 @@ public class AlertMeter : MonoBehaviour
 
         if (playerController.isMovingForward)
         {
-            sensitive = Mathf.Clamp(sensitive + increaseRate * Time.deltaTime, 0, maxSensitive);
+            sensitive = Mathf.Clamp(sensitive + increaseRate * Time.deltaTime, minSensitive, maxSensitive);
         }
         else
         {
-            sensitive = Mathf.Clamp(sensitive - decreaseRate * Time.deltaTime, 0, maxSensitive);
+            sensitive = Mathf.Clamp(sensitive - decreaseRate * Time.deltaTime, minSensitive, maxSensitive);
         }
 
         // Determine the direction of sensitivity change
         if (sensitive > currentSensitive)
         {
-            // 1 is increasing
             alertAnimator.SetInteger(animatorBoolName, 1);
         }
         else if (sensitive < currentSensitive)
         {
-            // -1 is decreasing
             alertAnimator.SetInteger(animatorBoolName, -1);
         }
         else
         {
-            // 0 is idle
             alertAnimator.SetInteger(animatorBoolName, 0);
         }
 
@@ -111,20 +107,31 @@ public class AlertMeter : MonoBehaviour
 
     void UpdateAlertMeter()
     {
-        float sensitivityPercentage = sensitive / maxSensitive;
+        // Adjust sensitivity percentage to account for the minimum sensitivity
+        float adjustedSensitivity = (sensitive - minSensitive) / (maxSensitive - minSensitive);
 
-        int sectionsToShow = Mathf.CeilToInt(sensitivityPercentage * numSections);
+        // Calculate how many sections should be shown based on the adjusted sensitivity percentage
+        int sectionsToShow = Mathf.CeilToInt(adjustedSensitivity * numSections);
+
+        // Ensure that the minimum sensitivity always shows at least some sections
+        sectionsToShow = Mathf.Max(sectionsToShow, Mathf.CeilToInt((minSensitive / maxSensitive) * numSections));
 
         for (int i = 0; i < numSections; i++)
         {
             if (i < sectionsToShow)
             {
+                // Show the section
                 alertSections[i].sizeDelta = new Vector2(initialSize.x, initialSize.y);
             }
             else
             {
+                // Hide the section
                 alertSections[i].sizeDelta = Vector2.zero;
             }
         }
+    }
+    public void IncreaseMinSenstive(float newMin)
+    {
+        minSensitive += newMin;
     }
 }

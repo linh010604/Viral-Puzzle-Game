@@ -61,8 +61,9 @@ public class WallBreaker : MonoBehaviour
     {
         if (alertMeter != null)
         {
-            alertMeter.sensitive = Mathf.Clamp(alertMeter.sensitive + sensitivityIncreaseAmount, 0, alertMeter.maxSensitive);
-            Debug.Log("increased to: " + alertMeter.sensitive);
+            alertMeter.IncreaseMinSenstive(sensitivityIncreaseAmount);
+            // alertMeter.sensitive = Mathf.Clamp(alertMeter.sensitive + sensitivityIncreaseAmount, 0, alertMeter.maxSensitive);
+            // Debug.Log("increased to: " + alertMeter.sensitive);
         }
     }
 

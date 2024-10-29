@@ -21292,15 +21292,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.23113401
+      value: 0.231134
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000028995336
+      value: -0.000000014497671
       objectReference: {fileID: 0}
     - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000006888331
+      value: 0.0000000034441656
       objectReference: {fileID: 0}
     - target: {fileID: 2510419561467191220, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_AmplitudeGain
@@ -21388,11 +21388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8548245188758808601, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018809217
+      value: 0.000000018809214
       objectReference: {fileID: 0}
     - target: {fileID: 8548245188758808601, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000040358055
+      value: -0.0000000040358046
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26245,6 +26245,10 @@ PrefabInstance:
     - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: hitThreshold
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
+      propertyPath: sensitivityIncreaseAmount
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name

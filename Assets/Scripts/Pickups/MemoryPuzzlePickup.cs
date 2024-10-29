@@ -53,6 +53,7 @@ public class MemoryPuzzlePickup : Pickup
         // Lower the hit threshold of the wall
         if (wallBreaker != null)
         {
+            Debug.Log("Puzzle completed!");
             wallBreaker.LowerHitThreshold(lowerAmount);
         }
     }

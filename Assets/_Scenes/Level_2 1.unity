@@ -306,7 +306,7 @@ MonoBehaviour:
   cursorManager: {fileID: 857038406}
   player: {fileID: 1774382916}
   dialogText: {fileID: 0}
-  lowerAmount: 6
+  lowerAmount: 50
   wallBreaker: {fileID: 2091549223}
 --- !u!1 &12175165 stripped
 GameObject:
@@ -5225,6 +5225,10 @@ PrefabInstance:
       propertyPath: hitThreshold
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
+      propertyPath: sensitivityIncreaseAmount
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name
       value: BreakableWall (3)
@@ -7530,6 +7534,10 @@ PrefabInstance:
     - target: {fileID: 4367137680702055887, guid: fa75464741f08a14bab8849e96d02613, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328892751942930057, guid: fa75464741f08a14bab8849e96d02613, type: 3}
+      propertyPath: enterText
+      value: Press P to enter password
       objectReference: {fileID: 0}
     - target: {fileID: 7411214561347074325, guid: fa75464741f08a14bab8849e96d02613, type: 3}
       propertyPath: m_Size.y
@@ -61138,7 +61146,7 @@ MonoBehaviour:
   cursorManager: {fileID: 857038406}
   player: {fileID: 1774382916}
   dialogText: {fileID: 0}
-  lowerAmount: 8
+  lowerAmount: 40
   wallBreaker: {fileID: 2091549223}
 --- !u!1001 &1604960660
 PrefabInstance:
@@ -71113,7 +71121,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
     - target: {fileID: 1423128305722142676, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: hitThreshold
-      value: 20
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5844479313825445051, guid: bd45c65ae66fb4b4f89c6a7b3d2b8b5c, type: 3}
       propertyPath: m_Name
@@ -71324,6 +71332,14 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 466623741}
+    - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000038365766
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920866694535758704, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000017447771
+      objectReference: {fileID: 0}
     - target: {fileID: 3360643816285020484, guid: aeae4d466b3464d40b5865d4c3fa9660, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.19
