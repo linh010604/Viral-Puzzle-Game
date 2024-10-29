@@ -66,7 +66,7 @@ public class KeyPad : MonoBehaviour
     {
         completeText.gameObject.SetActive(true); // Show the popup
 
-        yield return new WaitForSeconds(2);  // Wait for 2 seconds
+        yield return new WaitForSeconds(1);  // Wait for 2 seconds
 
         completeText.gameObject.SetActive(false); // Hide the popup
 
