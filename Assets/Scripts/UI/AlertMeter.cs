@@ -10,7 +10,7 @@ public class AlertMeter : MonoBehaviour
     public float sensitive = 0.0f;       // Current sensitivity
     public float increaseRate = 5.0f;    // Sensitivity increase rate
     public float decreaseRate = 35.0f;   // Sensitivity decrease rate
-
+    private bool gameEnded = false;       // Flag to indicate if the game has ended
     public int numSections = 11;         // Number of sections in the alert meter
     public Color[] sectionColors;        // Colors for each section of the alert meter
     public Vector2 sectionSize = new Vector2(65, 20); // Size of each rectangle (width, height)
@@ -57,6 +57,11 @@ public class AlertMeter : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Sensitivity: " + sensitive);
+        if (gameEnded)
+        {
+            return;
+        }
         if (playerController.DialogueUI.IsOpen) 
         {
             // IDLE (STOPPED)
@@ -89,6 +94,7 @@ public class AlertMeter : MonoBehaviour
             alertAnimator.SetInteger(animatorBoolName, 0);
         }
 
+
         float sensitivityThreshold = maxSensitive * 0.2f;
         if (sensitive >= sensitivityThreshold)
         {
@@ -103,6 +109,18 @@ public class AlertMeter : MonoBehaviour
         UpdateAlertMeter();
 
         previousSensitive = sensitive;
+
+        if (sensitive >= maxSensitive)
+        {
+            // Game over
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.GameOver();
+                gameEnded = true;
+            }
+            Time.timeScale = 0f;  // Freeze the game
+            Debug.Log("Game Over");
+        }
     }
 
     void UpdateAlertMeter()
