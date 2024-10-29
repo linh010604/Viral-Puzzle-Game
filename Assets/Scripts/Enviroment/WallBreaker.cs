@@ -54,7 +54,7 @@ public class WallBreaker : MonoBehaviour
     private void BreakWall()
     {
         Debug.Log("Wall is breaking!");
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 
     private void IncreaseSensitivity()

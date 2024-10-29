@@ -62,5 +62,6 @@ public class AnimationMainMenu : MonoBehaviour
         Debug.Log("Animation finished!");
         // After startup animation finishes, load the level
         SceneManager.LoadScene(levelToLoad);
+        Time.timeScale = 1;
     }
 }
