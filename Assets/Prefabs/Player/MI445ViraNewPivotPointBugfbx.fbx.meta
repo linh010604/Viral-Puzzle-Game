@@ -3,7 +3,22 @@ guid: c87cc10894fa9b44daff8d94f9c542c0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: 76bf2bc8371ba4f388bc4d05b32d9b0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TicBody
+    second: {fileID: 2100000, guid: 40dae9098b9054cbf967c629659c2e81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TicFace
+    second: {fileID: 2100000, guid: cca2cee258bbc46e3ae86e0d906e06dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

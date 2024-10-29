@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Wall Dialog
   m_EditorClassIdentifier: 
   dialogue:
-  - Hmm, I think I need to find a way to lower the threshold for hits.
-  - Perhaps I need to find a green block that could help me?
+  - Hmm, I think I need to find a way to decrease the strength of this firewall.
+    Then I can break through! (Press Space to continue)
+  - Perhaps I can interact with one of those green generators I've seen before? (Press
+    Space to continue)
   responses: []

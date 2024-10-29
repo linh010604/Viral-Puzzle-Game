@@ -11,6 +11,8 @@ public class Damage : MonoBehaviour
     [Tooltip("The team associated with this damage")]
     public int teamId = 0;
 
+
+    public AlertMeter alertMeter;
     [Header("Damage Settings")]
     [Tooltip("How much damage to deal")]
     public int damageAmount = 1;
@@ -85,16 +87,12 @@ public class Damage : MonoBehaviour
     /// <param name="collision">The Collision that has been collided with</param>
     private void DealDamage(Collision collision)
     {
-        Health collidedHealth = collision.gameObject.GetComponentInParent<Health>();
-        if (collidedHealth == null && collision.rigidbody != null)
+        if (collision.gameObject.CompareTag("Player") )
         {
-            collidedHealth = collision.rigidbody.GetComponent<Health>();
-        }
-        if (collidedHealth != null)
-        {
-            if (collidedHealth.teamId != this.teamId)
+            if (alertMeter != null)
             {
-                collidedHealth.TakeDamage(damageAmount);
+                alertMeter.TakeDamage(damageAmount);
+                Debug.Log("Player hit");
                 if (destroyAfterDamage)
                 {
                     Destroy(this.gameObject);
@@ -103,27 +101,14 @@ public class Damage : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Description:
-    /// This function deals damage to a health component if the collided with gameobject has a health component attached AND it is on a different team.
-    /// Input:
-    /// Collider collision
-    /// Return:
-    /// void (no return)
-    /// </summary>
-    /// <param name="collision">The Collider that has been collided with</param>
     private void DealDamage(Collider collision)
     {
-        Health collidedHealth = collision.gameObject.GetComponentInParent<Health>();
-        if (collidedHealth == null && collision.attachedRigidbody != null)
+        if (collision.gameObject.CompareTag("Player") )
         {
-            collidedHealth = collision.attachedRigidbody.GetComponent<Health>();
-        }
-        if (collidedHealth != null)
-        {
-            if (collidedHealth.teamId != this.teamId)
+            if (alertMeter != null)
             {
-                collidedHealth.TakeDamage(damageAmount);
+                alertMeter.TakeDamage(damageAmount);
+                Debug.Log("Player hit");
                 if (destroyAfterDamage)
                 {
                     Destroy(this.gameObject);

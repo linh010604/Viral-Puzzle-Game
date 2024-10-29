@@ -54,15 +54,16 @@ public class WallBreaker : MonoBehaviour
     private void BreakWall()
     {
         Debug.Log("Wall is breaking!");
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 
     private void IncreaseSensitivity()
     {
         if (alertMeter != null)
         {
-            alertMeter.sensitive = Mathf.Clamp(alertMeter.sensitive + sensitivityIncreaseAmount, 0, alertMeter.maxSensitive);
-            Debug.Log("increased to: " + alertMeter.sensitive);
+            alertMeter.IncreaseMinSenstive(sensitivityIncreaseAmount);
+            // alertMeter.sensitive = Mathf.Clamp(alertMeter.sensitive + sensitivityIncreaseAmount, 0, alertMeter.maxSensitive);
+            // Debug.Log("increased to: " + alertMeter.sensitive);
         }
     }
 
