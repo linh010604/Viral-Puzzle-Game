@@ -35,7 +35,7 @@ public class PasswordBlock : MonoBehaviour
 
         if (other.CompareTag("Player") )
         {
-
+            player.RecoverSpeed();
             playerinRange = false;
 
         }

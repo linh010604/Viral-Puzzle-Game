@@ -45,6 +45,7 @@ public class MemoryPuzzlePickup : Pickup
         if (other.CompareTag("Player"))
         {
             playerInRange = false; // Player left the trigger area
+            player.RecoverSpeed();
         }
     }
     void ActivatePuzzle()
