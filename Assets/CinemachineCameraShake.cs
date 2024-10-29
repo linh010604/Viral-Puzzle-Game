@@ -24,15 +24,19 @@ public class CinemachineCameraShake : MonoBehaviour
         // Get the Cinemachine FreeLook camera component
         cinemachineFreeLook = GetComponent<CinemachineFreeLook>();
 
-        // Get the Perlin noise component from each rig of the FreeLook camera
-        topRigNoise = cinemachineFreeLook.GetRig(0).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-        middleRigNoise = cinemachineFreeLook.GetRig(1).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-        bottomRigNoise = cinemachineFreeLook.GetRig(2).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        if (cinemachineFreeLook != null)
+        {
 
-        // Store the default amplitude gain values to reset after shaking
-        if (topRigNoise != null) defaultTopRigAmplitude = topRigNoise.m_AmplitudeGain;
-        if (middleRigNoise != null) defaultMiddleRigAmplitude = middleRigNoise.m_AmplitudeGain;
-        if (bottomRigNoise != null) defaultBottomRigAmplitude = bottomRigNoise.m_AmplitudeGain;
+            // Get the Perlin noise component from each rig of the FreeLook camera
+            topRigNoise = cinemachineFreeLook.GetRig(0).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+            middleRigNoise = cinemachineFreeLook.GetRig(1).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+            bottomRigNoise = cinemachineFreeLook.GetRig(2).GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+
+            // Store the default amplitude gain values to reset after shaking
+            if (topRigNoise != null) defaultTopRigAmplitude = topRigNoise.m_AmplitudeGain;
+            if (middleRigNoise != null) defaultMiddleRigAmplitude = middleRigNoise.m_AmplitudeGain;
+            if (bottomRigNoise != null) defaultBottomRigAmplitude = bottomRigNoise.m_AmplitudeGain;
+        }
     }
 
     public void ShakeCamera(float intensity, float time)
