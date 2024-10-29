@@ -35,7 +35,7 @@ public class MovablePair : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         if (!connected)
         {
             //rectTransform.position = Input.mousePosition;
-            rectTransform.anchoredPosition += eventData.delta;
+            rectTransform.position = eventData.position;
         }
         else if (Vector3.Distance(rectTransform.position, Input.mousePosition) > 2)
         {
