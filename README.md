@@ -8,7 +8,7 @@
 <br>
 
 > &nbsp;
-><i>[(Just paste the link here.)](https://morningtemplar17.itch.io/viral)</i>   
+><i>[(Download)](https://morningtemplar17.itch.io/viral)</i>   
 ><i></i>   
 > &nbsp;
  
